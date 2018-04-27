@@ -1,0 +1,20 @@
+{
+  "name": "svita-songs",
+  "version": "1.0.0",
+  "description": "Songbook Svítá in a machine readable format",
+  "main": "converter/convert.js",
+  "author": "Tobiáš Potoček",
+  "scripts": {
+    "printJson": "node converter/convert.js printJson",
+    "saveJson": "node converter/convert.js saveJson",
+    "printMarkdown": "node converter/convert.js printMarkdown",
+    "saveMarkdown": "node converter/convert.js saveMarkdown",
+    "printNames": "node converter/convert.js printNames"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "array.prototype.flatmap": "^1.2.1",
+    "libxmljs": "^0.18.7",
+    "tmp": "0.0.33"
+  }
+}
