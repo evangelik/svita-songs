@@ -3359,6 +3359,33 @@
     ]
   },
   {
+    "id": 88,
+    "name": "Chvalte Hospodina",
+    "sections": [
+      {
+        "type": "verse",
+        "verse_index": 1,
+        "paragraphs": [
+          "Chvalte Hospodina, chvalte ze vší síly,\nlidé národů všech, černí, žlutí, bílí!\nNeboť vzrůstá milost, kterou všem nám dává,\nneboť pravda jeho věky přetrvává."
+        ]
+      },
+      {
+        "type": "verse",
+        "verse_index": 2,
+        "paragraphs": [
+          "Chvalte Hospodina! Věčná věrnost jeho\nshovívá nám dosud, chce nás zbavit zlého.\nKdyž se všechno změní, padnou trůny s králi,\nneumlknou nikdy ústa plná chvály."
+        ]
+      },
+      {
+        "type": "verse",
+        "verse_index": 3,
+        "paragraphs": [
+          "Chvalte Hospodina, jeho pravdu znejte,\nže je věčná stále, na pamětí mějte!\nMladí jako staří ze všech zemí světa,\nnechť vždy haleluja ze rtů našich vzlétá."
+        ]
+      }
+    ]
+  },
+  {
     "id": 89,
     "name": "Chvalte Pána",
     "sections": [

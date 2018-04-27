@@ -1112,6 +1112,14 @@ Chvála tobě, Bože, chvála tobě, Bože,<br />zpívají tvorečkové tví,<br
 
 (4) Zní plesání z úst spravedlivých:<br />„Bůh je síla má i spasení?“ proto jen:
 
+## 88 Chvalte Hospodina
+
+(1) Chvalte Hospodina, chvalte ze vší síly,<br />lidé národů všech, černí, žlutí, bílí!<br />Neboť vzrůstá milost, kterou všem nám dává,<br />neboť pravda jeho věky přetrvává.
+
+(2) Chvalte Hospodina! Věčná věrnost jeho<br />shovívá nám dosud, chce nás zbavit zlého.<br />Když se všechno změní, padnou trůny s králi,<br />neumlknou nikdy ústa plná chvály.
+
+(3) Chvalte Hospodina, jeho pravdu znejte,<br />že je věčná stále, na pamětí mějte!<br />Mladí jako staří ze všech zemí světa,<br />nechť vždy haleluja ze rtů našich vzlétá.
+
 ## 89 Chvalte Pána
 
 *Ref:* Chvalte Pána, chvalte Pána, chvalte Pána stále,<br />spoutaným on pouta rozvázal,<br />chvalte Pána, chvalte Pána, chvalte Pána stále,<br />mezi králi nejvyšší je král.

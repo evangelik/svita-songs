@@ -208,7 +208,11 @@ function parseSlide(slideXml) {
 function parseSongId(slideXml) {
   const songId = slideXml
     .find(".//text:span", XML_NAMESPACES)
-    .filter(el => el.attr("style-name").value() == "T6")
+    .filter(
+      el =>
+        el.attr("style-name").value() == "T6" ||
+        el.attr("style-name").value() == "T17"
+    )
     .map(el => el.text().trim())
     .join();
 
