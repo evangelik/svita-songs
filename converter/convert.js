@@ -173,7 +173,7 @@ function convertParagraphsToSongSections(paragraphs) {
       if (Number.isInteger(paragraph.prefix)) {
         lastSection = {
           type: SongSectionType.VERSE,
-          verse_index: verseIndex++
+          verseIndex: verseIndex++
         };
       } else if (paragraph.prefix === "R") {
         lastSection = {
@@ -402,7 +402,7 @@ function getSongSectionMarkdown(section) {
 function getSectionPrefixMarkdown(section) {
   switch (section.type) {
     case SongSectionType.VERSE:
-      return "(" + section.verse_index + ") ";
+      return "(" + section.verseIndex + ") ";
 
     case SongSectionType.REFRAIN:
       return "*Ref:* ";
