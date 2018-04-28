@@ -10,6 +10,7 @@ const PARSE_ONLY_SONG = null; // For debugging
 
 const SVITA_PRESENTATION_ODP_FILE = __dirname + "/../data/svita.odp";
 const SVITA_NAMES_FILE = __dirname + "/../data/names";
+const SVITA_AUTHORS_FILE = __dirname + "/../data/authors";
 const TARGET_SVITA_JSON_FILE = __dirname + "/../svita.json";
 const TARGET_SVITA_MARKDOWN_FILE = __dirname + "/../svita.md";
 
@@ -68,12 +69,21 @@ function main() {
 
 function getSongs() {
   const names = getNames();
+  const authors = getAuthors();
 
-  return getBaseSongsWithLyrics().map(song => ({
-    id: song.id,
-    name: names[song.id - 1],
-    sections: song.sections
-  }));
+  return getBaseSongsWithLyrics().map(baseSong => {
+    const song = {
+      id: baseSong.id,
+      name: names[baseSong.id - 1],
+      sections: baseSong.sections
+    };
+
+    if (authors[baseSong.id - 1]) {
+      song.authors = authors[baseSong.id - 1];
+    }
+
+    return song;
+  });
 }
 
 //
@@ -94,6 +104,50 @@ function getNames() {
   );
 
   return names;
+}
+
+//
+// Loading authors from the source file.
+//
+
+function getAuthors() {
+  const authors = [];
+
+  fs
+    .readFileSync(SVITA_AUTHORS_FILE)
+    .toString()
+    .split("\n")
+    .map(author => author.trim())
+    .filter(author => author)
+    .map(parseAuthor)
+    .forEach(author =>
+      author.songs.forEach(song => {
+        if (!authors[song - 1]) {
+          authors[song - 1] = [];
+        }
+
+        authors[song - 1].push(author.name);
+      })
+    );
+
+  return authors;
+}
+
+function parseAuthor(authorStr) {
+  const [nameStr, songStr] = authorStr.split(":");
+  const [lastName, firstName] = nameStr.split(",");
+  const name = {};
+
+  if (firstName && firstName.trim()) {
+    name.firstName = firstName.trim();
+  }
+
+  name.lastName = lastName.trim();
+
+  return {
+    name: name,
+    songs: songStr.split(",").map(s => Number(s.trim()))
+  };
 }
 
 //
@@ -316,7 +370,25 @@ function getSongMarkdown(song) {
     " " +
     song.name +
     "\n\n" +
+    getAuthorsMarkdown(song) +
     song.sections.map(getSongSectionMarkdown).join("\n\n")
+  );
+}
+
+function getAuthorsMarkdown(song) {
+  if (!song.authors) {
+    return "";
+  }
+
+  return (
+    "*" +
+    song.authors
+      .map(
+        author =>
+          (author.firstName ? author.firstName + " " : "") + author.lastName
+      )
+      .join(", ") +
+    "*\n\n"
   );
 }
 
