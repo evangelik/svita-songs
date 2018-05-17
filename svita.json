@@ -383,7 +383,8 @@
     ],
     "illustration": {
       "name": "hudebnici",
-      "size": "large"
+      "size": "large",
+      "label": "...saka ani srdce nemaj upjatý..."
     }
   },
   {
@@ -1673,7 +1674,8 @@
     ],
     "illustration": {
       "name": "kostelovy-lid",
-      "size": "large"
+      "size": "large",
+      "label": "...mám jednu velkou starost o kostelovej lid..."
     }
   },
   {
@@ -3157,7 +3159,8 @@
     ],
     "illustration": {
       "name": "kohout",
-      "size": "medium"
+      "size": "medium",
+      "label": "...kouhout už jen chroptí..."
     }
   },
   {
@@ -3843,7 +3846,8 @@
     ],
     "illustration": {
       "name": "listecek",
-      "size": "large"
+      "size": "large",
+      "label": "...v kořenech starých pupen prask'..."
     }
   },
   {
@@ -5820,7 +5824,8 @@
     ],
     "illustration": {
       "name": "divne-hlasy",
-      "size": "large"
+      "size": "large",
+      "label": "...divné hlasy otázku mi šeptají:\nK čemu věrnost, nač pohrdat zradou? ..."
     }
   },
   {
@@ -8092,7 +8097,8 @@
     ],
     "illustration": {
       "name": "jericho",
-      "size": "large"
+      "size": "large",
+      "label": "...jen si mluvte, jak silní jste v kramflecích"
     }
   },
   {
@@ -10271,7 +10277,8 @@
     ],
     "illustration": {
       "name": "knez",
-      "size": "large"
+      "size": "large",
+      "label": "...podél cesty necháváme zbitý ve křoví,\nčistota nám brání vidět nuzný hladový..."
     }
   },
   {
@@ -10548,7 +10555,8 @@
     ],
     "illustration": {
       "name": "trumpetista",
-      "size": "large"
+      "size": "large",
+      "label": "...Petr se stal skálou a Pavel polnicí..."
     }
   },
   {
@@ -10943,7 +10951,8 @@
     ],
     "illustration": {
       "name": "na-skale",
-      "size": "medium"
+      "size": "medium",
+      "label": "...já nechci stavět na písku,\nbyť kolem skal byl plot..."
     }
   },
   {
@@ -11273,7 +11282,8 @@
     ],
     "illustration": {
       "name": "zrada",
-      "size": "large"
+      "size": "large",
+      "label": "...Petra v srdci zrada pálí..."
     }
   },
   {
@@ -11792,7 +11802,8 @@
     ],
     "illustration": {
       "name": "farar-jelito",
-      "size": "large"
+      "size": "large",
+      "label": "...byl tu s námi taky farář,\nzamračený jelito..."
     }
   },
   {
@@ -12168,7 +12179,8 @@
     ],
     "illustration": {
       "name": "vojaci",
-      "size": "large"
+      "size": "large",
+      "label": "...válka za válku, mír za mír..."
     }
   },
   {
@@ -13632,7 +13644,8 @@
     ],
     "illustration": {
       "name": "kohout",
-      "size": "medium"
+      "size": "medium",
+      "label": "...kouhout už jen chroptí..."
     }
   },
   {
@@ -17403,7 +17416,8 @@
     ],
     "illustration": {
       "name": "hvezda",
-      "size": "large"
+      "size": "large",
+      "label": "...tomu, kdo pro žal hlavu věší,\nna nebi hvězda září..."
     }
   },
   {
@@ -18567,7 +18581,8 @@
     ],
     "illustration": {
       "name": "vladce",
-      "size": "large"
+      "size": "large",
+      "label": "...člověče, chceš být vládcem, chceš vrýt svůj obraz dnům..."
     }
   },
   {
@@ -18903,7 +18918,8 @@
     ],
     "illustration": {
       "name": "reznici",
-      "size": "large"
+      "size": "large",
+      "label": "Kristus je má síla\nKANCIONÁL ŘEZNÍKŮ NOVOMĚSTSKÝCH"
     }
   },
   {
@@ -19043,7 +19059,8 @@
     ],
     "illustration": {
       "name": "tvrde-srdce",
-      "size": "large"
+      "size": "large",
+      "label": "...srdce lidské tvrdé bývá, není v světě místa..."
     }
   },
   {
@@ -19264,7 +19281,8 @@
     ],
     "illustration": {
       "name": "zrada",
-      "size": "large"
+      "size": "large",
+      "label": "...Petra v srdci zrada pálí..."
     }
   },
   {
@@ -19491,7 +19509,8 @@
     ],
     "illustration": {
       "name": "hudebnici",
-      "size": "large"
+      "size": "large",
+      "label": "...saka ani srdce nemaj upjatý..."
     }
   },
   {

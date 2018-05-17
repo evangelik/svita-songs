@@ -131,6 +131,10 @@ function getIllustrations() {
           name: illustration.name,
           size: illustration.size
         };
+
+        if (illustration.label) {
+          illustrations[song_id - 1].label = illustration.label;
+        }
       })
   );
 
