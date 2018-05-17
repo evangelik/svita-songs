@@ -11,6 +11,7 @@ const PARSE_ONLY_SONG = null; // For debugging
 const SVITA_PRESENTATION_ODP_FILE = __dirname + "/../data/svita.odp";
 const SVITA_NAMES_FILE = __dirname + "/../data/names";
 const SVITA_AUTHORS_FILE = __dirname + "/../data/authors";
+const SVITA_ILLUSTRATIONS_FILE = __dirname + "/../data/illustrations.json";
 const TARGET_SVITA_JSON_FILE = __dirname + "/../svita.json";
 const TARGET_SVITA_MARKDOWN_FILE = __dirname + "/../svita.md";
 
@@ -70,6 +71,7 @@ function main() {
 function getSongs() {
   const names = getNames();
   const authors = getAuthors();
+  const illustrations = getIllustrations();
 
   return getBaseSongsWithLyrics().map(baseSong => {
     const song = {
@@ -80,6 +82,10 @@ function getSongs() {
 
     if (authors[baseSong.id - 1]) {
       song.authors = authors[baseSong.id - 1];
+    }
+
+    if (illustrations[baseSong.id - 1]) {
+      song.illustration = illustrations[baseSong.id - 1];
     }
 
     return song;
@@ -104,6 +110,31 @@ function getNames() {
   );
 
   return names;
+}
+
+//
+// Loading illustrations from the source file.
+//
+
+function getIllustrations() {
+  const illustrations = [];
+
+  JSON.parse(fs.readFileSync(SVITA_ILLUSTRATIONS_FILE).toString()).forEach(
+    illustration =>
+      illustration.song_ids.forEach(song_id => {
+        assert(
+          !illustrations[song_id - 1],
+          "Song " + song_id + " already has an illustration!"
+        );
+
+        illustrations[song_id - 1] = {
+          name: illustration.name,
+          size: illustration.size
+        };
+      })
+  );
+
+  return illustrations;
 }
 
 //

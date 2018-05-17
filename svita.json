@@ -55,7 +55,11 @@
         "firstName": "Jiří",
         "lastName": "Scheider"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "dum",
+      "size": "medium"
+    }
   },
   {
     "id": 2,
@@ -376,7 +380,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "hudebnici",
+      "size": "large"
+    }
   },
   {
     "id": 9,
@@ -491,7 +499,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 10,
@@ -682,7 +694,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "do-kostela",
+      "size": "large"
+    }
   },
   {
     "id": 13,
@@ -815,7 +831,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 16,
@@ -1375,7 +1395,11 @@
         "firstName": "Štěpán",
         "lastName": "Hájek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "braska",
+      "size": "medium"
+    }
   },
   {
     "id": 27,
@@ -1505,7 +1529,11 @@
         "firstName": "Pavel",
         "lastName": "Dvořáček"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka-kriz",
+      "size": "small"
+    }
   },
   {
     "id": 30,
@@ -1642,7 +1670,11 @@
         "firstName": "Petr",
         "lastName": "Chlouba"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kostelovy-lid",
+      "size": "large"
+    }
   },
   {
     "id": 33,
@@ -1710,7 +1742,11 @@
         "firstName": "Jan",
         "lastName": "Kočnar"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "bible",
+      "size": "small"
+    }
   },
   {
     "id": 34,
@@ -1771,7 +1807,11 @@
         "firstName": "Jiří",
         "lastName": "Bassano"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "klavir",
+      "size": "small"
+    }
   },
   {
     "id": 35,
@@ -1891,7 +1931,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "stan",
+      "size": "medium"
+    }
   },
   {
     "id": 38,
@@ -1916,7 +1960,11 @@
         "firstName": "Pavel",
         "lastName": "Dvořáček"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zpevak",
+      "size": "medium"
+    }
   },
   {
     "id": 39,
@@ -2070,7 +2118,11 @@
           "Byť všechno zahynulo,\njá zůstal tu sám stát,\nbyť všechno pominulo,\njá neměl kam hlavu dát,\nbudu zase doufat dál, neboť vím,\nvůle tvá to není."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka",
+      "size": "small"
+    }
   },
   {
     "id": 44,
@@ -2305,7 +2357,11 @@
         "firstName": "Tomáš",
         "lastName": "Veselý"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz",
+      "size": "small"
+    }
   },
   {
     "id": 49,
@@ -2425,7 +2481,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "pouta",
+      "size": "medium"
+    }
   },
   {
     "id": 51,
@@ -2466,7 +2526,11 @@
           "K Ježíši se přibližme, ruce zvedněme a chvalme jej. (2x)\nK Ježíši se přibližme, ruce zvedněme a oslavujme jej.\nChvalme Jej, oslavujme Jej."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "saxofonista",
+      "size": "medium"
+    }
   },
   {
     "id": 52,
@@ -2566,7 +2630,11 @@
         "firstName": "Míla",
         "lastName": "Esterle"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz-kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 55,
@@ -2656,7 +2724,11 @@
           "(: Dej mi, prosím, humor, Pane,\na milost, abych chápal vtip. :)\n(: Ať mám radost ze života\na umím druhé potěšit. :)"
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "ptacek",
+      "size": "medium"
+    }
   },
   {
     "id": 57,
@@ -3082,7 +3154,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kohout",
+      "size": "medium"
+    }
   },
   {
     "id": 68,
@@ -3237,7 +3313,11 @@
         "firstName": "Svatopluk",
         "lastName": "Karásek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytara-kriz",
+      "size": "medium"
+    }
   },
   {
     "id": 71,
@@ -3486,7 +3566,11 @@
         "firstName": "Jana",
         "lastName": "Kočnarová-Kaletová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "heligonista",
+      "size": "large"
+    }
   },
   {
     "id": 78,
@@ -3756,7 +3840,11 @@
         "firstName": "Tomáš",
         "lastName": "Novotný"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "listecek",
+      "size": "large"
+    }
   },
   {
     "id": 86,
@@ -3936,7 +4024,11 @@
         "firstName": "Bob",
         "lastName": "Fliedr"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "dum",
+      "size": "medium"
+    }
   },
   {
     "id": 90,
@@ -4373,7 +4465,11 @@
         "firstName": "Dušan",
         "lastName": "Vančura"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "archa",
+      "size": "medium"
+    }
   },
   {
     "id": 101,
@@ -4602,7 +4698,11 @@
         "firstName": "Tomáš",
         "lastName": "Najbrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "houslista",
+      "size": "large"
+    }
   },
   {
     "id": 106,
@@ -4682,7 +4782,11 @@
         "firstName": "Pavel",
         "lastName": "Dvořáček"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zpevak",
+      "size": "medium"
+    }
   },
   {
     "id": 108,
@@ -4862,7 +4966,11 @@
         "firstName": "Tomáš",
         "lastName": "Najbrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "bubenik",
+      "size": "medium"
+    }
   },
   {
     "id": 112,
@@ -4923,7 +5031,11 @@
         "firstName": "Bohumír",
         "lastName": "Toušek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "trubka",
+      "size": "medium"
+    }
   },
   {
     "id": 114,
@@ -5069,7 +5181,11 @@
           "jak Duch dává."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytarista",
+      "size": "large"
+    }
   },
   {
     "id": 118,
@@ -5130,7 +5246,11 @@
         "firstName": "Svatopluk",
         "lastName": "Karásek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz",
+      "size": "small"
+    }
   },
   {
     "id": 119,
@@ -5212,7 +5332,11 @@
         "firstName": "Vlastimil",
         "lastName": "Maláč"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "vinna-reva",
+      "size": "medium"
+    }
   },
   {
     "id": 120,
@@ -5578,7 +5702,11 @@
         "firstName": "Petr",
         "lastName": "Chlouba"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kanon",
+      "size": "medium"
+    }
   },
   {
     "id": 128,
@@ -5641,7 +5769,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 130,
@@ -5685,7 +5817,11 @@
         "firstName": "Miroslav",
         "lastName": "Rozbořil"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "divne-hlasy",
+      "size": "large"
+    }
   },
   {
     "id": 131,
@@ -5760,7 +5896,11 @@
         "firstName": "Jiří",
         "lastName": "Joran"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zed",
+      "size": "medium"
+    }
   },
   {
     "id": 132,
@@ -5997,7 +6137,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "v-soudu-den",
+      "size": "medium"
+    }
   },
   {
     "id": 137,
@@ -6056,7 +6200,11 @@
         "firstName": "Jiří",
         "lastName": "Gruber"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "parez",
+      "size": "medium"
+    }
   },
   {
     "id": 138,
@@ -6314,7 +6462,11 @@
         "firstName": "Tomáš",
         "lastName": "Najbrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "fletnista",
+      "size": "medium"
+    }
   },
   {
     "id": 143,
@@ -6672,7 +6824,11 @@
         "firstName": "Tomáš",
         "lastName": "Najbrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "ovecka",
+      "size": "medium"
+    }
   },
   {
     "id": 152,
@@ -6833,7 +6989,11 @@
           "Když jednou zrána zlá přijde zpráva,\n(: nenech si víru vzít... :)"
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "bible",
+      "size": "small"
+    }
   },
   {
     "id": 156,
@@ -7165,7 +7325,11 @@
         "firstName": "Bob",
         "lastName": "Fliedr"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kostel",
+      "size": "medium"
+    }
   },
   {
     "id": 163,
@@ -7305,7 +7469,11 @@
         "firstName": "Jaroslav",
         "lastName": "Hutka"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "pouta",
+      "size": "medium"
+    }
   },
   {
     "id": 166,
@@ -7640,7 +7808,11 @@
       {
         "lastName": "František z Assisi"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "ptacek",
+      "size": "medium"
+    }
   },
   {
     "id": 173,
@@ -7746,7 +7918,11 @@
         "firstName": "Bohdan",
         "lastName": "Pivoňka"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zed",
+      "size": "medium"
+    }
   },
   {
     "id": 175,
@@ -7791,7 +7967,11 @@
         "firstName": "Miroslav",
         "lastName": "Brož"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "fletnista",
+      "size": "medium"
+    }
   },
   {
     "id": 176,
@@ -7909,7 +8089,11 @@
         "firstName": "Tomáš",
         "lastName": "Butta"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "jericho",
+      "size": "large"
+    }
   },
   {
     "id": 179,
@@ -7942,7 +8126,11 @@
         "firstName": "Tomáš",
         "lastName": "Najbrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kalich",
+      "size": "small"
+    }
   },
   {
     "id": 180,
@@ -8128,7 +8316,11 @@
         "firstName": "Miroslav",
         "lastName": "Brož"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 183,
@@ -8228,7 +8420,11 @@
         "firstName": "Luděk",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka",
+      "size": "small"
+    }
   },
   {
     "id": 186,
@@ -8424,7 +8620,11 @@
         "firstName": "Luděk",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka-kriz",
+      "size": "small"
+    }
   },
   {
     "id": 190,
@@ -9132,7 +9332,11 @@
         "firstName": "Jarmila",
         "lastName": "Svobodová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz-kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 207,
@@ -9356,7 +9560,11 @@
         "firstName": "Luděk",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kanon",
+      "size": "medium"
+    }
   },
   {
     "id": 212,
@@ -9436,7 +9644,11 @@
         "firstName": "Luděk",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zpevak",
+      "size": "medium"
+    }
   },
   {
     "id": 214,
@@ -9552,7 +9764,11 @@
         "firstName": "Bohdan",
         "lastName": "Pivoňka"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zvonecek",
+      "size": "small"
+    }
   },
   {
     "id": 217,
@@ -9674,7 +9890,11 @@
         "firstName": "Luděk",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 220,
@@ -9815,7 +10035,11 @@
         "firstName": "Luděk",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka",
+      "size": "small"
+    }
   },
   {
     "id": 222,
@@ -9919,7 +10143,11 @@
         "firstName": "Bohdan",
         "lastName": "Pivoňka"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "pouta",
+      "size": "medium"
+    }
   },
   {
     "id": 224,
@@ -10040,7 +10268,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "knez",
+      "size": "large"
+    }
   },
   {
     "id": 227,
@@ -10079,7 +10311,11 @@
         "firstName": "Jiří",
         "lastName": "Joran"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytarista",
+      "size": "large"
+    }
   },
   {
     "id": 228,
@@ -10185,7 +10421,11 @@
         "firstName": "Jiří",
         "lastName": "Joran"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "polnice",
+      "size": "medium"
+    }
   },
   {
     "id": 231,
@@ -10305,7 +10545,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "trumpetista",
+      "size": "large"
+    }
   },
   {
     "id": 234,
@@ -10350,7 +10594,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytara-kriz",
+      "size": "medium"
+    }
   },
   {
     "id": 235,
@@ -10422,7 +10670,11 @@
         "firstName": "Bohumil",
         "lastName": "Kejř"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "stan",
+      "size": "medium"
+    }
   },
   {
     "id": 237,
@@ -10688,7 +10940,11 @@
         "firstName": "Pavel",
         "lastName": "Kočnar"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "na-skale",
+      "size": "medium"
+    }
   },
   {
     "id": 242,
@@ -10816,7 +11072,11 @@
         "firstName": "Petr",
         "lastName": "Chlouba"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "parez",
+      "size": "medium"
+    }
   },
   {
     "id": 246,
@@ -10870,7 +11130,11 @@
         "firstName": "Karel",
         "lastName": "Trusina"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "bible",
+      "size": "small"
+    }
   },
   {
     "id": 247,
@@ -10923,7 +11187,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytara-kalich",
+      "size": "medium"
+    }
   },
   {
     "id": 249,
@@ -11002,7 +11270,11 @@
         "firstName": "Daniel",
         "lastName": "Raus"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zrada",
+      "size": "large"
+    }
   },
   {
     "id": 251,
@@ -11035,7 +11307,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kanon",
+      "size": "medium"
+    }
   },
   {
     "id": 252,
@@ -11455,7 +11731,11 @@
         "firstName": "Miroslav",
         "lastName": "Heryán"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz-kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 262,
@@ -11509,7 +11789,11 @@
         "firstName": "Zdeněk",
         "lastName": "Šorm"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "farar-jelito",
+      "size": "large"
+    }
   },
   {
     "id": 263,
@@ -11556,7 +11840,11 @@
         "firstName": "Štěpán",
         "lastName": "Hájek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "saxofonista",
+      "size": "medium"
+    }
   },
   {
     "id": 264,
@@ -11747,7 +12035,11 @@
         "firstName": "Jiří",
         "lastName": "Joran"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "dum",
+      "size": "medium"
+    }
   },
   {
     "id": 267,
@@ -11873,7 +12165,11 @@
         "firstName": "Bohdan",
         "lastName": "Pivoňka"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "vojaci",
+      "size": "large"
+    }
   },
   {
     "id": 270,
@@ -11905,7 +12201,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zed",
+      "size": "medium"
+    }
   },
   {
     "id": 271,
@@ -12046,7 +12346,11 @@
           "= 1."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kalich",
+      "size": "small"
+    }
   },
   {
     "id": 275,
@@ -12190,7 +12494,11 @@
         "firstName": "Eva",
         "lastName": "Hamerová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "klavir",
+      "size": "small"
+    }
   },
   {
     "id": 278,
@@ -12732,7 +13040,11 @@
         "firstName": "Renatus",
         "lastName": "Schiller"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "ptacek",
+      "size": "medium"
+    }
   },
   {
     "id": 292,
@@ -12767,7 +13079,11 @@
         "firstName": "Tomáš",
         "lastName": "Najbrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "parez",
+      "size": "medium"
+    }
   },
   {
     "id": 293,
@@ -12845,7 +13161,11 @@
           "(: Vím, že jednou :)\npřijdu k tobě v radost tvou,\n(: vím, že jednou :)\npřijdu k tobě, Pane můj."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytara-kriz",
+      "size": "medium"
+    }
   },
   {
     "id": 295,
@@ -13012,7 +13332,11 @@
         "firstName": "Luděk",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka",
+      "size": "small"
+    }
   },
   {
     "id": 299,
@@ -13258,7 +13582,11 @@
         "firstName": "Miroslav",
         "lastName": "Gallus"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytara-kalich",
+      "size": "medium"
+    }
   },
   {
     "id": 306,
@@ -13301,7 +13629,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kohout",
+      "size": "medium"
+    }
   },
   {
     "id": 307,
@@ -13579,7 +13911,11 @@
           "Hosana, hosana, Bohu na výsostech."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz",
+      "size": "small"
+    }
   },
   {
     "id": 315,
@@ -13954,7 +14290,11 @@
         "firstName": "Daniela",
         "lastName": "Novotná-Vojtíčková"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "vinna-reva",
+      "size": "medium"
+    }
   },
   {
     "id": 326,
@@ -14249,7 +14589,11 @@
         "firstName": "Jiří",
         "lastName": "Joran"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zed",
+      "size": "medium"
+    }
   },
   {
     "id": 333,
@@ -14568,7 +14912,11 @@
         "firstName": "Tomáš",
         "lastName": "Najbrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "pouta",
+      "size": "medium"
+    }
   },
   {
     "id": 342,
@@ -14835,7 +15183,11 @@
         "firstName": "Pavel",
         "lastName": "Javornický"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "polnice",
+      "size": "medium"
+    }
   },
   {
     "id": 348,
@@ -14972,7 +15324,11 @@
         "firstName": "Alena",
         "lastName": "Kaňáková"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "stan",
+      "size": "medium"
+    }
   },
   {
     "id": 351,
@@ -15036,7 +15392,11 @@
         "firstName": "Vratislav",
         "lastName": "Brabenec"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "vinna-reva",
+      "size": "medium"
+    }
   },
   {
     "id": 353,
@@ -15481,7 +15841,11 @@
           "Pána a Krista. Haleluja."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "bible",
+      "size": "small"
+    }
   },
   {
     "id": 364,
@@ -15622,7 +15986,11 @@
         "firstName": "Miroslav",
         "lastName": "Heryán"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka-kriz",
+      "size": "small"
+    }
   },
   {
     "id": 367,
@@ -15716,7 +16084,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zpevak",
+      "size": "medium"
+    }
   },
   {
     "id": 369,
@@ -16209,7 +16581,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zed",
+      "size": "medium"
+    }
   },
   {
     "id": 380,
@@ -16728,7 +17104,11 @@
         "firstName": "Míla",
         "lastName": "Esterle"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz-kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 392,
@@ -17020,7 +17400,11 @@
         "firstName": "Miloš",
         "lastName": "Rejchrt"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "hvezda",
+      "size": "large"
+    }
   },
   {
     "id": 399,
@@ -17090,7 +17474,11 @@
         "firstName": "Jiří",
         "lastName": "Joran"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "fletnista",
+      "size": "medium"
+    }
   },
   {
     "id": 400,
@@ -17137,7 +17525,11 @@
         "firstName": "Jaromír",
         "lastName": "Plíšek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "bubenik",
+      "size": "medium"
+    }
   },
   {
     "id": 401,
@@ -17468,7 +17860,11 @@
         "firstName": "Svatopluk",
         "lastName": "Karásek"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "dum",
+      "size": "medium"
+    }
   },
   {
     "id": 408,
@@ -17533,7 +17929,11 @@
           "Nebo tak Bůh miloval svět,\nže syna svého jednorozeného za nás dal,\naby každý, kdo uvěří v něho nezahynul,\nale měl s ním život věčný v nebi."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zvon",
+      "size": "large"
+    }
   },
   {
     "id": 410,
@@ -17711,7 +18111,11 @@
         "firstName": "Petr",
         "lastName": "Chlouba"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "bible",
+      "size": "small"
+    }
   },
   {
     "id": 420,
@@ -17848,7 +18252,11 @@
         "firstName": "Miroslav",
         "lastName": "Heryán"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz",
+      "size": "small"
+    }
   },
   {
     "id": 427,
@@ -17965,7 +18373,11 @@
           "Sanctus. Sanctus. Sanctus. Sanctus."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "svicka",
+      "size": "small"
+    }
   },
   {
     "id": 435,
@@ -18018,7 +18430,11 @@
         "firstName": "Míla",
         "lastName": "Esterle"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "parez",
+      "size": "medium"
+    }
   },
   {
     "id": 438,
@@ -18118,7 +18534,11 @@
           "He rescues me from death."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zpevak",
+      "size": "medium"
+    }
   },
   {
     "id": 445,
@@ -18144,7 +18564,11 @@
           "credo in unum Deum, Credo in unum Spiritum."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "vladce",
+      "size": "large"
+    }
   },
   {
     "id": 447,
@@ -18165,7 +18589,11 @@
         "firstName": "Miroslav",
         "lastName": "Heryán"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "strom",
+      "size": "medium"
+    }
   },
   {
     "id": 448,
@@ -18180,7 +18608,11 @@
           "bone voluntatis."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "fletnista",
+      "size": "medium"
+    }
   },
   {
     "id": 449,
@@ -18195,7 +18627,11 @@
           "Sláva buď, sláva buď, haleluja, haleluja."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytarista",
+      "size": "large"
+    }
   },
   {
     "id": 450,
@@ -18223,7 +18659,11 @@
           "alleluia, alleluia, in leatitia."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "archa",
+      "size": "medium"
+    }
   },
   {
     "id": 452,
@@ -18273,7 +18713,11 @@
           "Kyrie eleison, eleison."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "ptacek",
+      "size": "medium"
+    }
   },
   {
     "id": 456,
@@ -18327,7 +18771,11 @@
           "anima mea Dominum, anima mea Dominum"
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "houslista",
+      "size": "large"
+    }
   },
   {
     "id": 459,
@@ -18354,7 +18802,11 @@
           "Solo Dios basta."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zvonecek",
+      "size": "small"
+    }
   },
   {
     "id": 461,
@@ -18367,7 +18819,11 @@
           "Kristus slavný vítěz z hrobu vstal."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz-kometa",
+      "size": "medium"
+    }
   },
   {
     "id": 462,
@@ -18427,7 +18883,11 @@
           "Pán Bůh zástupů, Pán Bůh zástupů."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "vinna-reva",
+      "size": "medium"
+    }
   },
   {
     "id": 466,
@@ -18440,7 +18900,11 @@
           "Surrexit Christus hodie, alleluia, alleluia."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "reznici",
+      "size": "large"
+    }
   },
   {
     "id": 467,
@@ -18453,7 +18917,11 @@
           "Kde je dobrota a láska, kde je dobrota, tam je také Bůh."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "stan",
+      "size": "medium"
+    }
   },
   {
     "id": 468,
@@ -18466,7 +18934,11 @@
           "živjot vo mně Christos, živjot vo mně Christos."
         ]
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zpevak",
+      "size": "medium"
+    }
   },
   {
     "id": 469,
@@ -18510,7 +18982,11 @@
         "firstName": "Dorothea",
         "lastName": "Kellerová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "archa",
+      "size": "medium"
+    }
   },
   {
     "id": 472,
@@ -18564,7 +19040,11 @@
         "firstName": "Dorothea",
         "lastName": "Kellerová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "tvrde-srdce",
+      "size": "large"
+    }
   },
   {
     "id": 475,
@@ -18654,7 +19134,11 @@
         "firstName": "Dorothea",
         "lastName": "Kellerová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "fletnista",
+      "size": "medium"
+    }
   },
   {
     "id": 480,
@@ -18777,7 +19261,11 @@
         "firstName": "Zdena",
         "lastName": "Lomová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "zrada",
+      "size": "large"
+    }
   },
   {
     "id": 483,
@@ -18800,7 +19288,11 @@
         "firstName": "Zdena",
         "lastName": "Lomová"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "vinna-reva",
+      "size": "medium"
+    }
   },
   {
     "id": 484,
@@ -18905,7 +19397,11 @@
         "firstName": "Jan (Křtitel) Václav",
         "lastName": "Renč"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kytarista",
+      "size": "large"
+    }
   },
   {
     "id": 487,
@@ -18945,7 +19441,11 @@
         "firstName": "Jan (Křtitel) Václav",
         "lastName": "Renč"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "kriz",
+      "size": "small"
+    }
   },
   {
     "id": 488,
@@ -18988,7 +19488,11 @@
         "firstName": "Jan (Křtitel) Václav",
         "lastName": "Renč"
       }
-    ]
+    ],
+    "illustration": {
+      "name": "hudebnici",
+      "size": "large"
+    }
   },
   {
     "id": 489,
