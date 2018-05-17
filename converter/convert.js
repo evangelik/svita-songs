@@ -406,7 +406,42 @@ function getSongMarkdown(song) {
     song.name +
     "\n\n" +
     getAuthorsMarkdown(song) +
-    song.sections.map(getSongSectionMarkdown).join("\n\n")
+    song.sections.map(getSongSectionMarkdown).join("\n\n") +
+    getIllustrationMarkdown(song)
+  );
+}
+
+function getIllustrationMarkdown(song) {
+  if (!song.illustration) {
+    return "";
+  }
+
+  let width;
+
+  switch (song.illustration.size) {
+    case "small":
+      width = " width=100";
+      break;
+    case "medium":
+      width = " width=270";
+      break;
+    default:
+      width = "";
+  }
+
+  const label = song.illustration.label
+    ? "\n<i>" + song.illustration.label + "</i>"
+    : "";
+
+  return (
+    '\n\n<p align="center">\n' +
+    '<img src="data/illustrations/' +
+    song.illustration.name +
+    '.png"' +
+    width +
+    ">" +
+    label +
+    "\n</p>\n"
   );
 }
 
