@@ -4,14 +4,14 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "fetch": "^1.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "dns": "file:./src/mocks/dns"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start-client": "react-scripts start",
+    "build-client": "react-scripts build"
   }
 }

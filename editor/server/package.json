@@ -8,6 +8,6 @@
     "fs": "0.0.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start-server": "node server.js"
   }
 }
