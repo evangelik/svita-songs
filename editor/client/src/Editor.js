@@ -8,13 +8,18 @@ class Editor extends Component {
     super(props);
 
     this.state = {
-      songs: null
+      savedSongs: null,
+      songs: null,
+      saving: false
     }
   }
 
   componentDidMount() {
     ApiClient.get(songs => {
-      this.setState({songs: Immutable.fromJS(songs)});
+      const immutableSongs = Immutable.fromJS(songs);
+      this.setState({
+        savedSongs: immutableSongs,
+        songs: immutableSongs});
     });
   }
 
@@ -22,11 +27,31 @@ class Editor extends Component {
     this.setState({ songs: this.state.songs.set(i, song)});
   }
 
+  saveSongs() {
+    this.setState({
+      saving: true
+    });
+
+    ApiClient.put(this.state.songs.toJS(), songs => {
+      this.setState({
+        savedSongs: Immutable.fromJS(songs),
+        saving: false
+      });
+    });
+  }
+
   render() {
-    const { songs } = this.state;
+    const { savedSongs, songs, saving } = this.state;
+    const isSaved = !savedSongs || savedSongs.equals(songs);
 
     return (
       <div>
+        <button
+            disabled={saving || isSaved}
+            onClick={this.saveSongs.bind(this)}>
+          {saving ? "Ukládám..." :
+              isSaved ? "Uloženo" : "Uložit"}
+        </button>
         {songs
             ? songs.map((song, i) =>
                 <Song song={song}
