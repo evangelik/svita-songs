@@ -4,11 +4,12 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "dns": "file:./src/mocks/dns",
     "fetch": "^1.1.0",
+    "immutable": "^3.8.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "dns": "file:./src/mocks/dns"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start-client": "react-scripts start",

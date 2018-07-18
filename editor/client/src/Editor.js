@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import ApiClient from './ApiClient'
+import Immutable from 'immutable';
+import ApiClient from './ApiClient';
+import Song from './components/Song';
 
 class Editor extends Component {
   constructor(props) {
@@ -12,8 +14,12 @@ class Editor extends Component {
 
   componentDidMount() {
     ApiClient.get(songs => {
-      this.setState({ songs });
+      this.setState({songs: Immutable.fromJS(songs)});
     });
+  }
+
+  onSongChange(song, i) {
+    this.setState({ songs: this.state.songs.set(i, song)});
   }
 
   render() {
@@ -21,11 +27,15 @@ class Editor extends Component {
 
     return (
       <div>
-        {songs ? JSON.stringify(songs) : "Loading..."}
+        {songs
+            ? songs.map((song, i) =>
+                <Song song={song}
+                      key={i}
+                      onChange={song => this.onSongChange(song, i)}/>)
+            : "Loading..."}
       </div>
     );
   }
-
 }
 
 export default Editor;
