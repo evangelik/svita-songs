@@ -2,6 +2,7 @@ import React from "react";
 import makePureRender from "../util/makePureRender";
 import { push, pop } from "../util/listUtil";
 import Author from "./Author"
+import Section from "./Section"
 
 const Song = ({song, onChange}) => {
   const onNameChange =
@@ -18,6 +19,18 @@ const Song = ({song, onChange}) => {
       () => onChange(
           song.update(pop("authors")));
 
+  const onSectionChange =
+      (section, i) => onChange(song.setIn(["sections", i], section));
+
+  const onSectionAdd =
+      () => onChange(
+          song.update(push("sections",
+              {type: "verse", verseIndex: "1", paragraphs: [""]})));
+
+  const onSectionRemove =
+      () => onChange(
+          song.update(pop("sections")));
+
   return <div>
     <h1>
       {song.get("id")}
@@ -25,7 +38,7 @@ const Song = ({song, onChange}) => {
              onChange={onNameChange}
              placeholder="Název písničky"/>
       <div>
-        {song.get("authors") && song.get("authors").map((author, i) =>
+        {(song.get("authors") || []).map((author, i) =>
             <Author author={author}
                     key={i}
                     onChange={author => onAuthorChange(author, i)}/>
@@ -34,6 +47,17 @@ const Song = ({song, onChange}) => {
       <div>
         <button onClick={onAuthorAdd}>Přidat autora</button>
         <button onClick={onAuthorRemove}>Odebrat autora</button>
+      </div>
+      <div>
+        {(song.get("sections") || []).map((section, i) =>
+            <Section section={section}
+                     key={i}
+                     onChange={section => onSectionChange(section, i)}/>
+        )}
+      </div>
+      <div>
+        <button onClick={onSectionAdd}>Přidat oddíl</button>
+        <button onClick={onSectionRemove}>Odebrat oddíl</button>
       </div>
     </h1>
   </div>;
