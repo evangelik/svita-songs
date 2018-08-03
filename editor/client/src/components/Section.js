@@ -1,6 +1,7 @@
 import React from "react";
 import makePureRender from "../util/makePureRender";
 import { push, pop } from "../util/listUtil";
+import ManageButtons from "./ManageButtons";
 
 const SECTION_TYPES = {
   unknown: "neznámý",
@@ -39,30 +40,52 @@ const Section = ({section, onChange}) => {
           section.update(pop("paragraphs")));
 
   return <div>
-    <div>
-      <select onChange={onTypeChange} value={section.get("type")}>
-        {Object.getOwnPropertyNames(SECTION_TYPES).map(type =>
-            <option key={type} value={type}>
-              {SECTION_TYPES[type]}
-            </option>)}
-      </select>
+    <div className="form-group row">
+      <label className="col-2 col-form-label">Typ</label>
+      <div className="col-10">
+        <select className="form-control"
+                onChange={onTypeChange}
+                value={section.get("type")}>
+          {Object.getOwnPropertyNames(SECTION_TYPES).map(type =>
+              <option key={type} value={type}>
+                {SECTION_TYPES[type]}
+              </option>)}
+        </select>
+      </div>
     </div>
+
     {section.get("type") === "verse" && <div>
-      <input value={section.get("verseIndex") || 0}
-             onChange={onVerseIndexChange}
-             placeholder="Číslo sloky"/>
+      <div className="form-group row">
+        <label className="col-2 col-form-label">Číslo</label>
+        <div className="col-10">
+          <input className="form-control"
+                 value={section.get("verseIndex") || 0}
+                 onChange={onVerseIndexChange}
+                 placeholder="Číslo sloky"/>
+        </div>
+      </div>
     </div>}
-    <div>
-      {(section.get("paragraphs") || []).map((paragraph, i) =>
-          <div key={i}>
-            <textarea value={paragraph}
+
+    <div className="form-group row">
+      <div className="col-10 offset-2">
+        {(section.get("paragraphs") || []).map((paragraph, i) =>
+            <div key={i}>
+            <textarea className="form-control"
+                      value={paragraph}
                       placeholder="Text odstavce"
+                      rows={paragraph.split("\n").length}
                       onChange={e => onParagraphChange(e, i)}/>
-          </div>)}
+            </div>)}
+      </div>
     </div>
-    <div>
-      <button onClick={onParagraphAdd}>Přidat odstavec</button>
-      <button onClick={onParagraphRemove}>Odebrat odstavec</button>
+
+    <div className="form-group row">
+      <div className="col-10 offset-2">
+        <ManageButtons addLabel="Přidat odstavec"
+                       removeLabel="Odebrat odstavec"
+                       onAdd={onParagraphAdd}
+                       onRemove={onParagraphRemove} />
+      </div>
     </div>
   </div>;
 };

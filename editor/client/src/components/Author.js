@@ -8,13 +8,19 @@ const Author = ({author, onChange}) => {
   const onLastNameChange =
       ({target: {value}}) => onChange(author.set("lastName", value));
 
-  return <div>
-    <input value={author.get("firstName")}
-           onChange={onFirstNameChange}
-           placeholder="Křestní jméno"/>
-    <input value={author.get("lastName")}
-           onChange={onLastNameChange}
-           placeholder="Příjmení"/>
+  return <div className="form-group row">
+    <div className="col">
+      <input className="form-control"
+             value={author.get("firstName")}
+             onChange={onFirstNameChange}
+             placeholder="Křestní jméno"/>
+    </div>
+    <div className="col">
+      <input className="form-control"
+             value={author.get("lastName")}
+             onChange={onLastNameChange}
+             placeholder="Příjmení"/>
+    </div>
   </div>;
 };
 

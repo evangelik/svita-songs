@@ -75,16 +75,18 @@ class Editor extends Component {
     }
 
     return (
-      <div>
-        <button
-            disabled={saving || isSaved}
-            onClick={this.saveSongs.bind(this)}>
+      <div className="container">
+        <button className="btn btn-primary btn-lg"
+                disabled={saving || isSaved}
+                onClick={this.saveSongs.bind(this)}>
           {saving ? "Ukládám..." :
               isSaved ? "Uloženo" : "Uložit"}
         </button>
 
         <div>
-          <select onChange={Editor.onSongIdChange} value={songId}>
+          <select className="form-control"
+                  onChange={Editor.onSongIdChange}
+                  value={songId}>
             {songs.map(song =>
                 <option key={song.get("id")}
                         value={song.get("id")}>
@@ -92,6 +94,8 @@ class Editor extends Component {
                 </option>)}
           </select>
         </div>
+
+        <br /><br />
 
         <Song song={currentSong} onChange={song => this.onSongChange(song)} />
       </div>
