@@ -10,6 +10,7 @@ class Editor extends Component {
     this.state = {
       savedSongs: null,
       songs: null,
+      songId: 1,
       saving: false
     }
   }
@@ -23,8 +24,17 @@ class Editor extends Component {
     });
   }
 
-  onSongChange(song, i) {
-    this.setState({ songs: this.state.songs.set(i, song)});
+  onSongChange(song) {
+    const songs = this.state.songs;
+    this.setState({
+      songs: songs.set(
+          songs.findKey(song => song.get("id") === this.state.songId),
+          song)
+    });
+  }
+
+  onSongIdChange({target: {value}}) {
+    this.setState({ songId: Number(value) });
   }
 
   saveSongs() {
@@ -41,8 +51,12 @@ class Editor extends Component {
   }
 
   render() {
-    const { savedSongs, songs, saving } = this.state;
+    const { savedSongs, songs, songId, saving } = this.state;
     const isSaved = !savedSongs || savedSongs.equals(songs);
+
+    if (!songs) {
+      return <div>Loading...</div>
+    }
 
     return (
       <div>
@@ -52,12 +66,19 @@ class Editor extends Component {
           {saving ? "Ukládám..." :
               isSaved ? "Uloženo" : "Uložit"}
         </button>
-        {songs
-            ? songs.map((song, i) =>
-                <Song song={song}
-                      key={i}
-                      onChange={song => this.onSongChange(song, i)}/>)
-            : "Loading..."}
+
+        <div>
+          <select onChange={this.onSongIdChange.bind(this)} value={songId}>
+            {songs.map(song =>
+                <option key={song.get("id")}
+                        value={song.get("id")}>
+                  {song.get("id")} {song.get("name")}
+                </option>)}
+          </select>
+        </div>
+
+        <Song song={songs.find(song => song.get("id") === songId)}
+              onChange={song => this.onSongChange(song)} />
       </div>
     );
   }
