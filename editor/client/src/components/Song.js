@@ -37,29 +37,29 @@ const Song = ({song, onChange}) => {
       <input value={song.get("name")}
              onChange={onNameChange}
              placeholder="Název písničky"/>
-      <div>
-        {(song.get("authors") || []).map((author, i) =>
-            <Author author={author}
-                    key={i}
-                    onChange={author => onAuthorChange(author, i)}/>
-        )}
-      </div>
-      <div>
-        <button onClick={onAuthorAdd}>Přidat autora</button>
-        <button onClick={onAuthorRemove}>Odebrat autora</button>
-      </div>
-      <div>
-        {(song.get("sections") || []).map((section, i) =>
-            <Section section={section}
-                     key={i}
-                     onChange={section => onSectionChange(section, i)}/>
-        )}
-      </div>
-      <div>
-        <button onClick={onSectionAdd}>Přidat oddíl</button>
-        <button onClick={onSectionRemove}>Odebrat oddíl</button>
-      </div>
     </h1>
+    <div>
+      {(song.get("authors") || []).map((author, i) =>
+          <Author author={author}
+                  key={i}
+                  onChange={author => onAuthorChange(author, i)}/>
+      )}
+    </div>
+    <div>
+      <button onClick={onAuthorAdd}>Přidat autora</button>
+      <button onClick={onAuthorRemove}>Odebrat autora</button>
+    </div>
+    <div>
+      {(song.get("sections") || []).map((section, i) =>
+          <Section section={section}
+                   key={i}
+                   onChange={section => onSectionChange(section, i)}/>
+      )}
+    </div>
+    <div>
+      <button onClick={onSectionAdd}>Přidat oddíl</button>
+      <button onClick={onSectionRemove}>Odebrat oddíl</button>
+    </div>
   </div>;
 };
 
