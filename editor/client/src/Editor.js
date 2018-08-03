@@ -10,9 +10,11 @@ class Editor extends Component {
     this.state = {
       savedSongs: null,
       songs: null,
-      songId: 1,
+      songId: Editor.getSongIdFromLocationHash(),
       saving: false
-    }
+    };
+
+    window.onhashchange = this.onLocationHashChange.bind(this);
   }
 
   componentDidMount() {
@@ -33,8 +35,16 @@ class Editor extends Component {
     });
   }
 
-  onSongIdChange({target: {value}}) {
-    this.setState({ songId: Number(value) });
+  static onSongIdChange({target: {value}}) {
+    window.location.hash = "#" + Number(value);
+  }
+
+  onLocationHashChange() {
+    this.setState({songId: Editor.getSongIdFromLocationHash()});
+  }
+
+  static getSongIdFromLocationHash() {
+    return Number(window.location.hash.replace("#", "")) || 1;
   }
 
   saveSongs() {
@@ -55,7 +65,13 @@ class Editor extends Component {
     const isSaved = !savedSongs || savedSongs.equals(songs);
 
     if (!songs) {
-      return <div>Loading...</div>
+      return <div>Načítám Svítá...</div>
+    }
+
+    const currentSong = songs.find(song => song.get("id") === songId);
+
+    if (!currentSong) {
+      return <div>Písnička neexistuje</div>;
     }
 
     return (
@@ -68,7 +84,7 @@ class Editor extends Component {
         </button>
 
         <div>
-          <select onChange={this.onSongIdChange.bind(this)} value={songId}>
+          <select onChange={Editor.onSongIdChange} value={songId}>
             {songs.map(song =>
                 <option key={song.get("id")}
                         value={song.get("id")}>
@@ -77,8 +93,7 @@ class Editor extends Component {
           </select>
         </div>
 
-        <Song song={songs.find(song => song.get("id") === songId)}
-              onChange={song => this.onSongChange(song)} />
+        <Song song={currentSong} onChange={song => this.onSongChange(song)} />
       </div>
     );
   }
