@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Immutable from 'immutable';
 import ApiClient from './ApiClient';
 import Song from './components/Song';
+import Navbar from './components/Navbar';
 
 class Editor extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class Editor extends Component {
       savedSongs: null,
       songs: null,
       songId: Editor.getSongIdFromLocationHash(),
-      saving: false
+      isSaving: false
     };
 
     window.onhashchange = this.onLocationHashChange.bind(this);
@@ -49,19 +50,19 @@ class Editor extends Component {
 
   saveSongs() {
     this.setState({
-      saving: true
+      isSaving: true
     });
 
     ApiClient.put(this.state.songs.toJS(), songs => {
       this.setState({
         savedSongs: Immutable.fromJS(songs),
-        saving: false
+        isSaving: false
       });
     });
   }
 
   render() {
-    const { savedSongs, songs, songId, saving } = this.state;
+    const { savedSongs, songs, songId, isSaving } = this.state;
     const isSaved = !savedSongs || savedSongs.equals(songs);
 
     if (!songs) {
@@ -74,31 +75,19 @@ class Editor extends Component {
       return <div>Písnička neexistuje</div>;
     }
 
-    return (
-      <div className="container">
-        <button className="btn btn-primary btn-lg"
-                disabled={saving || isSaved}
-                onClick={this.saveSongs.bind(this)}>
-          {saving ? "Ukládám..." :
-              isSaved ? "Uloženo" : "Uložit"}
-        </button>
+    return (<div>
+          <Navbar songs={songs}
+                  currentSongId={songId}
+                  onSongIdChange={Editor.onSongIdChange}
+                  isSaving={isSaving}
+                  isSaved={isSaved}
+                  onSaveSongs={this.saveSongs.bind(this)}/>
 
-        <div>
-          <select className="form-control"
-                  onChange={Editor.onSongIdChange}
-                  value={songId}>
-            {songs.map(song =>
-                <option key={song.get("id")}
-                        value={song.get("id")}>
-                  {song.get("id")} {song.get("name")}
-                </option>)}
-          </select>
+          <div className="container">
+            <Song song={currentSong}
+                  onChange={song => this.onSongChange(song)}/>
+          </div>
         </div>
-
-        <br /><br />
-
-        <Song song={currentSong} onChange={song => this.onSongChange(song)} />
-      </div>
     );
   }
 }
