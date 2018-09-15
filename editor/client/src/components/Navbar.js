@@ -5,7 +5,10 @@ const Navbar =
     ({songs, currentSongId, onSongIdChange, isSaving, isSaved, onSaveSongs}) =>
         <nav className="navbar fixed-top navbar-dark bg-dark">
           <div className="container">
-            <a className="navbar-brand" href=".">Svítá Editor</a>
+            <a className="navbar-brand" href=".">
+              <img src="svita.png" className="d-inline-block align-top" alt=""/>
+              <strong>Svítá</strong> editor
+            </a>
 
             <div className="form-inline">
               <select className="form-control mr-sm-2"
@@ -18,7 +21,7 @@ const Navbar =
                     </option>)}
               </select>
 
-              <button className="btn btn-primary"
+              <button className="btn btn-outline-light"
                       disabled={isSaving || isSaved}
                       onClick={onSaveSongs}>
                 {isSaving ? "Ukládám..." :

@@ -4,7 +4,7 @@ import { push, pop } from "../util/listUtil";
 import ManageButtons from "./ManageButtons";
 
 const SECTION_TYPES = {
-  unknown: "neznámý",
+  unknown: "ani sloka, ani refrén",
   verse: "sloka",
   refrain: "refrén"
 };
@@ -41,43 +41,43 @@ const Section = ({section, onChange}) => {
 
   return <div>
     <div className="form-group row">
-      <label className="col-2 col-form-label">Typ</label>
+      <div className="col-2">
+        {section.get("type") === "verse"
+            ? <input className="form-control"
+                     value={section.get("verseIndex") || 0}
+                     onChange={onVerseIndexChange}
+                     placeholder="#"/>
+            : <input className="form-control"
+                     disabled={true}
+                     value={section.get("type") === "refrain"
+                         ? "Ref:"
+                         : "N/A"}/>}
+      </div>
+
       <div className="col-10">
         <select className="form-control"
                 onChange={onTypeChange}
                 value={section.get("type")}>
-          {Object.getOwnPropertyNames(SECTION_TYPES).map(type =>
-              <option key={type} value={type}>
-                {SECTION_TYPES[type]}
-              </option>)}
+          <optgroup label="Typ oddílu">
+            {Object.getOwnPropertyNames(SECTION_TYPES).map(type =>
+                <option key={type} value={type}>
+                  {SECTION_TYPES[type]}
+                </option>)}
+          </optgroup>
         </select>
       </div>
     </div>
 
-    {section.get("type") === "verse" && <div>
-      <div className="form-group row">
-        <label className="col-2 col-form-label">Číslo</label>
-        <div className="col-10">
-          <input className="form-control"
-                 value={section.get("verseIndex") || 0}
-                 onChange={onVerseIndexChange}
-                 placeholder="Číslo sloky"/>
-        </div>
-      </div>
-    </div>}
-
-    <div className="form-group row">
-      <div className="col-10 offset-2">
-        {(section.get("paragraphs") || []).map((paragraph, i) =>
-            <div key={i}>
+    {(section.get("paragraphs") || []).map((paragraph, i) =>
+        <div className="form-group row" key={i}>
+          <div className="col-10 offset-2">
             <textarea className="form-control"
                       value={paragraph}
                       placeholder="Text odstavce"
                       rows={paragraph.split("\n").length}
                       onChange={e => onParagraphChange(e, i)}/>
-            </div>)}
-      </div>
-    </div>
+          </div>
+        </div>)}
 
     <div className="form-group row">
       <div className="col-10 offset-2">

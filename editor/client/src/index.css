@@ -1,5 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
+
 body {
   margin: 0;
-  padding: 80px 0 0 0;
-  font-family: sans-serif;
+  font-family: "Roboto Slab", serif;
+  background-color: white;
 }
+
+/** Navbar **/
+
+.navbar-brand strong {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-brand img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.bg-dark {
+  background-color: #27456b !important;
+}
+
+/** Forms **/
+
+.btn {
+  font-size: 0.9rem;
+  font-weight: bold;
+  height: 24px; /* preserve the height */
+  box-sizing: content-box;
+}
+
+.form-control {
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.07);
+}
+
+.form-control:focus {
+  color: black;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+textarea.form-control {
+  overflow: auto;
+}
+
+/** Song **/
+
+.song {
+  padding: 80px 0 0 0;
+}
+
+.song-header {
+  margin-bottom: 32px;
+}
+
+.song-number.col-1 {
+  flex: 0 0 11.1%; /* A little hack to align it with the form below :( */
+  max-width: 11.1%;
+}
+
+.song-number h1 {
+  line-height: 3.5rem;
+  font-weight: bold;
+  margin-top: 11px;
+  margin-bottom: 0;
+  font-size: 2.7rem;
+}
+
+.song-name.col-11 {
+  flex: 0 0 88.9%;
+  max-width: 88.9%;
+}
+
+.song-name .form-control-lg {
+  height: 3.5rem;
+  font-size: 1.7rem;
+  color: black;
+}
+
+
+
+/* (rounded)
+.song-number {
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid #F1F3F4;
+}
+*/
+
+.song-title {
+  margin-top: 11px;
+}
+
+.song-form-group {
+  background-color: #f8f9fa;
+  padding: 32px;
+  margin-bottom: 32px;
+  border-radius: 0.4rem;
+  border: 1px solid #F1F3F4;
+}
+
+.song-form-group h2 {
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.song-form-group .form-row:last-of-type {
+  margin-bottom: 0;
+}
+

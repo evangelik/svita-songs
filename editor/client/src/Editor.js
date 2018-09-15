@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Immutable from 'immutable';
+import { Helmet } from 'react-helmet';
 import ApiClient from './ApiClient';
 import Song from './components/Song';
 import Navbar from './components/Navbar';
@@ -76,6 +77,10 @@ class Editor extends Component {
     }
 
     return (<div>
+          <Helmet>
+            <title>Svítá editor: {currentSong.get("name")}</title>
+          </Helmet>
+
           <Navbar songs={songs}
                   currentSongId={songId}
                   onSongIdChange={Editor.onSongIdChange}
@@ -83,10 +88,8 @@ class Editor extends Component {
                   isSaved={isSaved}
                   onSaveSongs={this.saveSongs.bind(this)}/>
 
-          <div className="container">
-            <Song song={currentSong}
-                  onChange={song => this.onSongChange(song)}/>
-          </div>
+          <Song song={currentSong}
+                onChange={song => this.onSongChange(song)}/>
         </div>
     );
   }

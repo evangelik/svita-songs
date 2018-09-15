@@ -1,31 +1,46 @@
 import React from "react";
 import makePureRender from "../util/makePureRender";
-import Authors from "./Authors"
-import Sections from "./Sections"
+import Authors from "./Authors";
+import Sections from "./Sections";
+import FormGroup from "./FormGroup";
 
 const Song = ({song, onChange}) => {
   const onNameChange =
       ({target: {value}}) => onChange(song.set("name", value));
 
-  return <div>
-    <div className="row">
-      <div className="col-1">
-        <h1>{song.get("id")}</h1>
-      </div>
-      <div className="col-11">
-        <input className="form-control form-control-lg"
-               value={song.get("name")}
-               onChange={onNameChange}
-               placeholder="Název písničky"/>
+  return <div className="song">
+    <div className="song-header">
+      <div className="container">
+        <div className="row">
+          <div className="col-1 song-number"><h1>{song.get("id")}</h1></div>
+          <div className="col-11 song-name">
+            <input className="form-control form-control-lg song-title"
+                   value={song.get("name")}
+                   onChange={onNameChange}
+                   placeholder="Název písničky"/>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div className="row">
-      <div className="col-7">
-        <Sections song={song} onChange={onChange} />
-      </div>
-      <div className="col-5">
-        <Authors song={song} onChange={onChange} />
+    <div className="container">
+      <div className="row">
+        <div className="col-8">
+          <Sections song={song} onChange={onChange} />
+        </div>
+        <div className="col-4">
+          <FormGroup title="Autoři">
+            <Authors song={song} onChange={onChange} />
+          </FormGroup>
+
+          <FormGroup title="Biblické reference">
+            Work in progress.
+          </FormGroup>
+
+          <FormGroup title="Ilustrace">
+            Work in progress.
+          </FormGroup>
+        </div>
       </div>
     </div>
   </div>;
