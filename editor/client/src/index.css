@@ -100,3 +100,32 @@ textarea.form-control {
 .song-form-group .form-row:last-of-type {
   margin-bottom: 0;
 }
+
+/** Illustration. */
+
+.illustration {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.illustration-image {
+  margin-bottom: 32px;
+}
+
+.illustration-image-small {
+  max-width: 30%;
+}
+
+.illustration-image-medium {
+  max-width: 50%;
+}
+
+.illustration-image-large {
+  max-width: 90%;
+}
+
+.illustration-label {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1em;
+}

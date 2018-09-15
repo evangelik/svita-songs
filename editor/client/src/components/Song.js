@@ -2,7 +2,9 @@ import React from "react";
 import makePureRender from "../util/makePureRender";
 import Authors from "./Authors";
 import Sections from "./Sections";
+import Illustrations from "./Illustrations";
 import FormGroup from "./FormGroup";
+import RenderIllustration from "./RenderIllustration";
 
 const Song = ({song, onChange}) => {
   const onNameChange =
@@ -27,6 +29,8 @@ const Song = ({song, onChange}) => {
       <div className="row">
         <div className="col-8">
           <Sections song={song} onChange={onChange} />
+          {song.has("illustration") && <RenderIllustration
+              illustration={song.get("illustration")}/>}
         </div>
         <div className="col-4">
           <FormGroup title="Autoři">
@@ -38,7 +42,7 @@ const Song = ({song, onChange}) => {
           </FormGroup>
 
           <FormGroup title="Ilustrace">
-            Work in progress.
+            <Illustrations song={song} onChange={onChange} />
           </FormGroup>
         </div>
       </div>
