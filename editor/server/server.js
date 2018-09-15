@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const fs = require("fs");
 
 const SVITA_JSON_FILE = __dirname + "/../../svita.json";
+const ILLUSTRATIONS_DIR = __dirname + "/../../data/illustrations";
 
 const app = express();
 
@@ -33,6 +34,8 @@ app.post("/api/put", function (req, res) {
         }
       });
 });
+
+app.use("/illustrations", express.static(ILLUSTRATIONS_DIR));
 
 app.listen(app.get("port"), () => {
   console.log(`Find the server at: http://localhost:${app.get("port")}/`); // eslint-disable-line no-console
