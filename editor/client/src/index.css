@@ -101,6 +101,17 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
+.song-form-group .btn-light {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.song-form-group .btn-light:hover {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+}
+
 /** Illustration. */
 
 .illustration {
