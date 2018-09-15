@@ -79,21 +79,6 @@ textarea.form-control {
   color: black;
 }
 
-
-
-/* (rounded)
-.song-number {
-  width: 70px;
-  line-height: 70px;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 28px;
-  background-color: white;
-  font-weight: bold;
-  border: 1px solid #F1F3F4;
-}
-*/
-
 .song-title {
   margin-top: 11px;
 }
@@ -115,4 +100,3 @@ textarea.form-control {
 .song-form-group .form-row:last-of-type {
   margin-bottom: 0;
 }
-

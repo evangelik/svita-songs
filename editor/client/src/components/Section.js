@@ -84,7 +84,8 @@ const Section = ({section, onChange}) => {
         <ManageButtons addLabel="Přidat odstavec"
                        removeLabel="Odebrat odstavec"
                        onAdd={onParagraphAdd}
-                       onRemove={onParagraphRemove} />
+                       onRemove={onParagraphRemove}
+                       hideRemoveButton={!section.get("paragraphs")}/>
       </div>
     </div>
   </div>;

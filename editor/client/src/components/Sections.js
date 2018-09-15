@@ -31,7 +31,8 @@ const Sections = ({song, onChange}) => {
         <ManageButtons addLabel="Přidat oddíl"
                        removeLabel="Odebrat oddíl"
                        onAdd={onSectionAdd}
-                       onRemove={onSectionRemove}/>
+                       onRemove={onSectionRemove}
+                       hideRemoveButton={!song.get("sections")}/>
       </div>
     </div>
   </div>;

@@ -30,7 +30,8 @@ const Authors = ({song, onChange}) => {
         <ManageButtons addLabel="Přidat autora"
                        removeLabel="Odebrat autora"
                        onAdd={onAuthorAdd}
-                       onRemove={onAuthorRemove}/>
+                       onRemove={onAuthorRemove}
+                       hideRemoveButton={!song.get("authors")}/>
       </div>
     </div>
   </div>;
