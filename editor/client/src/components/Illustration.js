@@ -14,7 +14,10 @@ const Illustration = ({illustration, onChange}) => {
       ({target: {value}}) => onChange(illustration.set("size", value));
 
   const onLabelChange =
-      ({target: {value}}) => onChange(illustration.set("label", value));
+      ({target: {value}}) => onChange(
+          value
+              ? illustration.set("label", value)
+              : illustration.remove("label"));
 
   return <div>
     <div className="form-group">
@@ -41,7 +44,7 @@ const Illustration = ({illustration, onChange}) => {
       <label>Text pod obrázkem</label>
       <textarea className="form-control"
              onChange={onLabelChange}
-             value={illustration.get("label")}
+             value={illustration.get("label") || ""}
              rows={2}
              placeholder="Text pod obrázkem"/>
     </div>
@@ -49,13 +52,8 @@ const Illustration = ({illustration, onChange}) => {
 };
 
 function getIllustrationDefaults(name) {
-  let { size, label } = ILLUSTRATIONS[name];
-
-  if (label === undefined) {
-    label = "";
-  }
-
-  return fromJS({name, size, label})
+  const {size, label} = ILLUSTRATIONS[name];
+  return fromJS(label === undefined ? {name, size} : {name, size, label});
 }
 
 export default makePureRender(Illustration);
