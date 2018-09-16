@@ -5,7 +5,7 @@ const exportToMarkdown = require("./exportToMarkdown");
 
 const SVITA_JSON_FILE = __dirname + "/../../svita.json";
 const SVITA_MARKDOWN_FILE = __dirname + "/../../svita.md";
-const ILLUSTRATIONS_DIR = __dirname + "/../../data/illustrations";
+const ILLUSTRATIONS_DIR = __dirname + "/../../illustrations";
 
 const app = express();
 

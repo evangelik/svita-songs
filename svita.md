@@ -17,7 +17,7 @@
 (6) A pak jsi řekl: Co je prach a strach a samota a tma?<br />Jsem přece živ a kdo jsou moji,<br />jsou živi se mnou, se mnou stojí.<br />Toť královské, to vyhlášení naděje.<br />Dech jistoty, jež zavěje, dnes,<br />zítra a pak, dnes, zítra a pak.
 
 <p align="center">
-<img src="data/illustrations/dum.png" width=270>
+<img src="illustrations/dum.png" width=270>
 </p>
 
 
@@ -120,7 +120,7 @@ U hrobu stály, bály se bály,<br />tam na cestu tvou světlo věčné svítí 
 (4) I wonder where my mother is gone.<br />I heard f‘om heav‘n today.
 
 <p align="center">
-<img src="data/illustrations/hudebnici.png">
+<img src="illustrations/hudebnici.png">
 <i>...saka ani srdce nemaj upjatý...</i>
 </p>
 
@@ -160,7 +160,7 @@ U hrobu stály, bály se bály,<br />tam na cestu tvou světlo věčné svítí 
 (13) Halleluja, in the Kingdom, with my Saviour!
 
 <p align="center">
-<img src="data/illustrations/kometa.png" width=270>
+<img src="illustrations/kometa.png" width=270>
 </p>
 
 
@@ -235,7 +235,7 @@ a hlavy naplň svým duchem<br />tak prosím Pane znova stovky marnejch vět
 (12) And when they crown him King of Kings …
 
 <p align="center">
-<img src="data/illustrations/do-kostela.png">
+<img src="illustrations/do-kostela.png">
 </p>
 
 
@@ -280,7 +280,7 @@ a hlavy naplň svým duchem<br />tak prosím Pane znova stovky marnejch vět
 (2) Pozoruj, co ti říká Bůh,náš Pán.<br />vstávej, pojď za tou hvězdou.<br />Nech svůj spěch, nech ho být, nezůstaň s ním sám,<br />vstávej, pojď za tou hvězdou.
 
 <p align="center">
-<img src="data/illustrations/kometa.png" width=270>
+<img src="illustrations/kometa.png" width=270>
 </p>
 
 
@@ -459,7 +459,7 @@ Buď tobě sláva, jenž jsi z mrtvých vstal!<br />Smrt již nemá práva, vít
 (12) . Bylo tady lidí moře, jestli pak sis vůbec všim (x2)<br />a tak už něco dělej, nestačí mít jenom pravdu,<br />pravda není, jó, pravda není vůbec vším.
 
 <p align="center">
-<img src="data/illustrations/braska.png" width=270>
+<img src="illustrations/braska.png" width=270>
 </p>
 
 
@@ -506,7 +506,7 @@ Závěr
 V dálce už svítá království tvé,<br />prý se nás týká, jak podivné.<br />Mé sny tam dojdou, já ale též,<br />né nemusím zoufat, dojdeme dál,<br />dojdeme dál, dojdeme dál.
 
 <p align="center">
-<img src="data/illustrations/svicka-kriz.png" width=100>
+<img src="illustrations/svicka-kriz.png" width=100>
 </p>
 
 
@@ -553,7 +553,7 @@ V dálce už svítá království tvé,<br />prý se nás týká, jak podivné.<
 (3) Nečekej, skloň se níž a nabírej čistou<br />vodu života do dlaní svých.<br />Ty, Pane, dáváš dary své těm, kteří chválí jméno Tvé.
 
 <p align="center">
-<img src="data/illustrations/kostelovy-lid.png">
+<img src="illustrations/kostelovy-lid.png">
 <i>...mám jednu velkou starost o kostelovej lid...</i>
 </p>
 
@@ -579,7 +579,7 @@ V dálce už svítá království tvé,<br />prý se nás týká, jak podivné.<
 *Ref:* Kdo vidí smysl svého žití<br />jen v blahobytném živobytí,<br />ten na své počty doplatí,<br />na ně doplatí, lálálálálá,<br />Co ještě dnes tak dobře sype,<br />se v okamžiku rozesype<br />a v troskách budeš plakati, budeš plakati.
 
 <p align="center">
-<img src="data/illustrations/bible.png" width=100>
+<img src="illustrations/bible.png" width=100>
 </p>
 
 
@@ -604,7 +604,7 @@ Miluj, mi prostě říká Pán,<br />miluj, a odpověď ti dám:<br />Najdeš i 
 (6) Aimer, chaqun comme un ami,<br />aimer jusqu‘a donner sa vie.<br />Aimer per dela les douleurs,<br />c‘est trouver le bonheur.
 
 <p align="center">
-<img src="data/illustrations/klavir.png" width=100>
+<img src="illustrations/klavir.png" width=100>
 </p>
 
 
@@ -645,7 +645,7 @@ Miluj, mi prostě říká Pán,<br />miluj, a odpověď ti dám:<br />Najdeš i 
 (4) Kočku chtěla sežrat myš, dvakrát dvě je pět,<br />tak nám to tu podepiš, otevřeš si svět.<br />Však jsou slova, jak sám víš, proutky čarovné.<br />Ty jim na to odpovíš: ne, ne, ne.
 
 <p align="center">
-<img src="data/illustrations/stan.png" width=270>
+<img src="illustrations/stan.png" width=270>
 </p>
 
 
@@ -670,7 +670,7 @@ vlak jede, jede, odváží břímě mé.<br />Můj přítel výpravčí už jeno
 (vlak jede, odváží břímě mé)<br />dál, jen dál, dál, jen dál,<br />vlak můj odjíždí, mé ruce volné jsou.
 
 <p align="center">
-<img src="data/illustrations/zpevak.png" width=270>
+<img src="illustrations/zpevak.png" width=270>
 </p>
 
 
@@ -735,7 +735,7 @@ Kdyby se země zachvěla a ty bys neslyšel<br />pro rachot padající skály,<b
 Byť všechno zahynulo,<br />já zůstal tu sám stát,<br />byť všechno pominulo,<br />já neměl kam hlavu dát,<br />budu zase doufat dál, neboť vím,<br />vůle tvá to není.
 
 <p align="center">
-<img src="data/illustrations/svicka.png" width=100>
+<img src="illustrations/svicka.png" width=100>
 </p>
 
 
@@ -812,7 +812,7 @@ A ty báby bály se Boha otců svých, nečinily tak,<br />jak jim nařídil far
 (2) Vánoce čas lásky jsou, pamatujte,<br />o Ježíši, Králi svém, prozpěvujte.<br />Lásku šel dávat všem lidem, také nám,<br />lásku šel dávat všem lidem, také nám.
 
 <p align="center">
-<img src="data/illustrations/kriz.png" width=100>
+<img src="illustrations/kriz.png" width=100>
 </p>
 
 
@@ -853,7 +853,7 @@ A ty báby bály se Boha otců svých, nečinily tak,<br />jak jim nařídil far
 (5) Když Duch Boží zavěje, vstane z mrtvých naděje,<br />když Duch Boží zavěje,<br />i v tom našem údolí probudí se mrtvoly,<br />i v tom našem údolí.
 
 <p align="center">
-<img src="data/illustrations/pouta.png" width=270>
+<img src="illustrations/pouta.png" width=270>
 </p>
 
 
@@ -870,7 +870,7 @@ A ty báby bály se Boha otců svých, nečinily tak,<br />jak jim nařídil far
 (5) K Ježíši se přibližme, ruce zvedněme a chvalme jej. (2x)<br />K Ježíši se přibližme, ruce zvedněme a oslavujme jej.<br />Chvalme Jej, oslavujme Jej.
 
 <p align="center">
-<img src="data/illustrations/saxofonista.png" width=270>
+<img src="illustrations/saxofonista.png" width=270>
 </p>
 
 
@@ -915,7 +915,7 @@ Co já už opouštím i ty nech být. Sláva, halelu.
 *Ref:* Proč za hvězdou pouštíš se<br />cestou bláhovou? Proč?<br />Slyš sláva, haleluja, proč, slyš sláva, haleluja,<br />sláva, haleluja, narodil se Král.<br />Cos chtěl najít v jeslích<br />pod střechou trámovou? Proč?<br />Slyš sláva, haleluja, proč, slyš sláva, haleluja,<br />sláva, haleluja, narodil se Král.
 
 <p align="center">
-<img src="data/illustrations/kriz-kometa.png" width=270>
+<img src="illustrations/kriz-kometa.png" width=270>
 </p>
 
 
@@ -946,7 +946,7 @@ Co já už opouštím i ty nech být. Sláva, halelu.
 (4) (: Dej mi, prosím, humor, Pane,<br />a milost, abych chápal vtip. :)<br />(: Ať mám radost ze života<br />a umím druhé potěšit. :)
 
 <p align="center">
-<img src="data/illustrations/ptacek.png" width=270>
+<img src="illustrations/ptacek.png" width=270>
 </p>
 
 
@@ -1089,7 +1089,7 @@ Haleluja, Ježíš je můj Pán.
 (3) Matka pláče a naříká, komisi popravčí prosí,<br />to, co pod svým srdcem nosí, aby vyrvat směla,<br />smilování, mistři kati, vtrhněte do mého těla,<br />vytněte noži a meči kořen nebezpečí,<br />sekej a bodej, řež a nič,<br />s tím, co se hýbe, pryč s tím pryč.
 
 <p align="center">
-<img src="data/illustrations/kohout.png" width=270>
+<img src="illustrations/kohout.png" width=270>
 <i>...kouhout už jen chroptí...</i>
 </p>
 
@@ -1143,7 +1143,7 @@ Tak všichni poznají, že učedníci mí jste,<br />když mezi vámi bude lásk
 (7) Slyšte, cedry libánské, co vám král praví:<br />Když měl bych ztratit vládu svou, sám sebe zapálím.<br />Vzejde oheň, vzejde oheň,<br />v něm každý kmen by ihned vzplál,<br />tak mstí se král, kterým jsi kdysi pohrdal.
 
 <p align="center">
-<img src="data/illustrations/kytara-kriz.png" width=270>
+<img src="illustrations/kytara-kriz.png" width=270>
 </p>
 
 
@@ -1232,7 +1232,7 @@ jak vznešené je tvoje jméno po vší zemi.
 (5) Hospodine, Pane náš, své jméno po vší zemi<br />v důstojnosti necháváš oslavovati všemi.
 
 <p align="center">
-<img src="data/illustrations/heligonista.png">
+<img src="illustrations/heligonista.png">
 </p>
 
 
@@ -1329,7 +1329,7 @@ Co vysloví Hospodin, jsou slova ryzí,<br />stříbro přetavené do kadlubu v 
 (3) Co tady bylo malý, bude veliký,<br />a krejčí tam maj látky balíky<br />a každýmu tam dobrou mírou naměří,<br />kdo z nás by tomu nevěřil, tam uvěří.
 
 <p align="center">
-<img src="data/illustrations/listecek.png">
+<img src="illustrations/listecek.png">
 <i>...v kořenech starých pupen prask'...</i>
 </p>
 
@@ -1401,7 +1401,7 @@ Chvála tobě, Bože, chvála tobě, Bože,<br />zpívají tvorečkové tví,<br
 (3) Ať ho duší, tělem každý chválí<br />den ode dne víc,<br />mladí nebo staří pěkně z plných plic.<br />Ukázal nám cestu, stejně ukázal nám cíl,<br />zvítězil nad křížem,<br />kámen odvalil, (: odvalil. :)
 
 <p align="center">
-<img src="data/illustrations/dum.png" width=270>
+<img src="illustrations/dum.png" width=270>
 </p>
 
 
@@ -1550,7 +1550,7 @@ M:<br />Archa má cíl, jé, archa má směr, jé,<br />plaví se k Araratu na s
 (5) Na břehu pak vyložili náklad celý,<br />ještě že tu starou dobrou archu měli.<br />- R, M, R
 
 <p align="center">
-<img src="data/illustrations/archa.png" width=270>
+<img src="illustrations/archa.png" width=270>
 </p>
 
 
@@ -1627,7 +1627,7 @@ Early on the Easter Sunday morning the angel rolled the stone away.
 (3) A netáhnu už sebou žádnou z věcí,<br />co dřív jsem nutně musel mít,<br />stejně jenom těžký jsou<br />a já už tam chci brzo být.
 
 <p align="center">
-<img src="data/illustrations/houslista.png">
+<img src="illustrations/houslista.png">
 </p>
 
 
@@ -1658,7 +1658,7 @@ Early on the Easter Sunday morning the angel rolled the stone away.
 Tak vstaň a pojď, zpívej se mnou, slávy den, slávy den (2x)<br />Já to vím, jednou přijde ten den, ten den. (4x)
 
 <p align="center">
-<img src="data/illustrations/zpevak.png" width=270>
+<img src="illustrations/zpevak.png" width=270>
 </p>
 
 
@@ -1717,7 +1717,7 @@ Tak vstaň a pojď, zpívej se mnou, slávy den, slávy den (2x)<br />Já to ví
 (3) Krátce a brzy přijde den, kdy bude každý přezkoušen,<br />až zůstanou Boží děti jen, kde bude Pán.<br />Pán Ježíš přijde brzy, vím, a jeho slovům věřit smím,<br />až jeho slávu uvidím, tam bude Pán.<br />Tam bude Pán, tam bude Pán, až jeho slávu uvidím,<br />tam bude Pán, tam bude Pán, tam bude Pán,<br />až jeho slávu uvidím, tam bude Pán.
 
 <p align="center">
-<img src="data/illustrations/bubenik.png" width=270>
+<img src="illustrations/bubenik.png" width=270>
 </p>
 
 
@@ -1740,7 +1740,7 @@ Jako skála v širém moři,<br />jako ostrov v mořské bouři,<br />jako svíc
 (3) Dej také lásku tu dále<br />i tam, kde tě nikdo nemá rád.
 
 <p align="center">
-<img src="data/illustrations/trubka.png" width=270>
+<img src="illustrations/trubka.png" width=270>
 </p>
 
 
@@ -1793,7 +1793,7 @@ Chci tě chválit, Pane můj,
 jak Duch dává.
 
 <p align="center">
-<img src="data/illustrations/kytarista.png">
+<img src="illustrations/kytarista.png">
 </p>
 
 
@@ -1816,7 +1816,7 @@ jak Duch dává.
 (7) Noemu duhou zjevil Bůh, že už ne voda,<br />příště vzplane vzduch, je lepší…
 
 <p align="center">
-<img src="data/illustrations/kriz.png" width=100>
+<img src="illustrations/kriz.png" width=100>
 </p>
 
 
@@ -1851,7 +1851,7 @@ we will walk hand in hand.<br />:)<br />And together we'll spread the news<br />
 we will work side by side.<br />:)<br />And we'll guard each man's dignity<br />and save each man's pride.
 
 <p align="center">
-<img src="data/illustrations/vinna-reva.png" width=270>
+<img src="illustrations/vinna-reva.png" width=270>
 </p>
 
 
@@ -1972,7 +1972,7 @@ Ježíš je Pán, jediný a svatý,
 Ježíš je Pán, jediný a svatý.
 
 <p align="center">
-<img src="data/illustrations/kanon.png" width=270>
+<img src="illustrations/kanon.png" width=270>
 </p>
 
 
@@ -1995,7 +1995,7 @@ Ježíš je Pán, jediný a svatý.
 (2) Hle, dítě tu v jeslích, v temnotách jas,<br />to v Betlémě vzešla nám naděje zas.<br />Když chudou stáj proměnil v ráj.<br />Bůh v moci má spasit nás i celý kraj.
 
 <p align="center">
-<img src="data/illustrations/kometa.png" width=270>
+<img src="illustrations/kometa.png" width=270>
 </p>
 
 
@@ -2012,7 +2012,7 @@ Ježíš je Pán, jediný a svatý.
 (4) Potom i oheň zhasne, řeknem si: dobrou noc.<br />Dík vzdáme za vše krásné, za Boží řád a moc.<br />Slunce i každou z hvězd on v ochraně své chová<br />a svému lidu znova vždy věrným světlem jest.
 
 <p align="center">
-<img src="data/illustrations/divne-hlasy.png">
+<img src="illustrations/divne-hlasy.png">
 <i>...divné hlasy otázku mi šeptají:
 K čemu věrnost, nač pohrdat zradou? ...</i>
 </p>
@@ -2041,7 +2041,7 @@ K čemu věrnost, nač pohrdat zradou? ...</i>
 *Ref:* Jozue, ten porazil Jericho, Jericho, Jericho,<br />Jozue, ten porazil Jericho, dolů hradby padají.
 
 <p align="center">
-<img src="data/illustrations/zed.png" width=270>
+<img src="illustrations/zed.png" width=270>
 </p>
 
 
@@ -2114,7 +2114,7 @@ K čemu věrnost, nač pohrdat zradou? ...</i>
 (7) Kam v soudu den dáš, co dneska sháníš,<br />kam v soudu den dáš, co v chůzi brání,<br />kam v soudu den dáš, svý srdce prázdný,<br />v ten soudu den.
 
 <p align="center">
-<img src="data/illustrations/v-soudu-den.png" width=270>
+<img src="illustrations/v-soudu-den.png" width=270>
 </p>
 
 
@@ -2137,7 +2137,7 @@ K čemu věrnost, nač pohrdat zradou? ...</i>
 (5) Je čas neznámý, čas vyhlížený,<br />čas modlení, čas vyslyšení,<br />čas vykoupení, čas zaslíbený,<br />kdy přijde znovu Pán.
 
 <p align="center">
-<img src="data/illustrations/parez.png" width=270>
+<img src="illustrations/parez.png" width=270>
 </p>
 
 
@@ -2218,7 +2218,7 @@ K čemu věrnost, nač pohrdat zradou? ...</i>
 (4) Ani děti nejsou jiné<br />od otců a od matek<br />všichni chceme ihned vidět<br />velkolepej začátek.<br />Chceme rovnou vidět hory<br />jak se vrhaj do moře<br />a když se to náhle stane<br />schováme se v komoře.
 
 <p align="center">
-<img src="data/illustrations/fletnista.png" width=270>
+<img src="illustrations/fletnista.png" width=270>
 </p>
 
 
@@ -2361,7 +2361,7 @@ There's a hand writing on the wall ...
 (4) Chtěl bych projít velký město světa, říct všem tulákům,<br />že jsem poznal jeden cíl, tam, kde nás čeká Otcův dům.<br />Už z dáli světla září, i ty hloupé mohou vést,<br />každý pocit má jak doma, když se zpátky vrátil z cest.<br />Všichni otcové a mámy, když se venku sešeří,<br />ke stolu tu spolu s námi domů míří k večeři.
 
 <p align="center">
-<img src="data/illustrations/ovecka.png" width=270>
+<img src="illustrations/ovecka.png" width=270>
 </p>
 
 
@@ -2414,7 +2414,7 @@ There's a hand writing on the wall ...
 (3) Když jednou zrána zlá přijde zpráva,<br />(: nenech si víru vzít... :)
 
 <p align="center">
-<img src="data/illustrations/bible.png" width=100>
+<img src="illustrations/bible.png" width=100>
 </p>
 
 
@@ -2521,7 +2521,7 @@ Když hříchy vyznáváme a rceme, že jsme červi,<br />krví svou smyje naše
 V:<br />Chodil bych dál křížem krážem po prašných cestách,<br />a ptal se osudu, co mi chystá,<br />hledal bych dál pravdu světa na prašnejch cestách,<br />nepotkat opravdovýho přítele, Ježíše Krista,<br />Ježíše Krista, Ježíše Krista.
 
 <p align="center">
-<img src="data/illustrations/kostel.png" width=270>
+<img src="illustrations/kostel.png" width=270>
 </p>
 
 
@@ -2568,7 +2568,7 @@ V:<br />Chodil bych dál křížem krážem po prašných cestách,<br />a ptal 
 (6) Krásný je vzduch, krásnější je moře,<br />co je nejkrásnější, co je nejkrásnější?<br />Usměvavé tváře.
 
 <p align="center">
-<img src="data/illustrations/pouta.png" width=270>
+<img src="illustrations/pouta.png" width=270>
 </p>
 
 
@@ -2681,7 +2681,7 @@ Ačkoli listí dále opadává,<br />já v lásku Boží věřit smím,<br />zp�
 (3) Za to všechno díky vzdáme,<br />spolu s bratry žalmy zpíváme,<br />ať každý z nás z blízka i z dáli,<br />celým srdcem, Tě, Pane, chválí.
 
 <p align="center">
-<img src="data/illustrations/ptacek.png" width=270>
+<img src="illustrations/ptacek.png" width=270>
 </p>
 
 
@@ -2718,7 +2718,7 @@ Ačkoli listí dále opadává,<br />já v lásku Boží věřit smím,<br />zp�
 (7) (: Mrtvý byl Pán, teď právě jsem ho potkal :)<br />mrtvý byl Pán, věřím, že chce pro lidi žít, být přijímán<br />(: mrtvý byl Pán, teď právě jsem ho potkal :)<br />(: mrtvý byl Pán :) (: snad ráno potkáš ho i ty! :)
 
 <p align="center">
-<img src="data/illustrations/zed.png" width=270>
+<img src="illustrations/zed.png" width=270>
 </p>
 
 
@@ -2737,7 +2737,7 @@ Ačkoli listí dále opadává,<br />já v lásku Boží věřit smím,<br />zp�
 (3) Loď, které církev říkáme, vždy musí cíl svůj znát<br />a mořem času s posláním vždy znovu proplouvat.<br />Když námi zmítá samota a úzkost přepadá,<br />dá Bůh na cestu věrné své, ti s námi plují dál.<br />To dodá opět odvahu a nejsme sami již.<br />Tu zříme v lodi drží nás vítězný Kristův kříž.
 
 <p align="center">
-<img src="data/illustrations/fletnista.png" width=270>
+<img src="illustrations/fletnista.png" width=270>
 </p>
 
 
@@ -2778,7 +2778,7 @@ Ačkoli listí dále opadává,<br />já v lásku Boží věřit smím,<br />zp�
 (3) Má píseň vůbec někdy nemá tóny,<br />když svoji radost toužím vyzpívat,<br />zní v duši mojí jak sváteční zvony,<br />když na hruď jeho mohu hlavu dát.
 
 <p align="center">
-<img src="data/illustrations/jericho.png">
+<img src="illustrations/jericho.png">
 <i>...jen si mluvte, jak silní jste v kramflecích</i>
 </p>
 
@@ -2794,7 +2794,7 @@ Ačkoli listí dále opadává,<br />já v lásku Boží věřit smím,<br />zp�
 (3) Málo mám, málo znám málo se usmívám,<br />málo se modlívám a nadranc nervy mám.<br />Málo jím málo spím málo se modlívám<br />chyby mám všude tam kam se podívám.<br />Když volně dolů padám když nevím kudy dál<br />kdosi mi ruku dává abych zas pevně stál<br />Zvedá mě nad zemi dává mi zázemí<br />láska lidi z hlíny staví zázrak dělá s prachem mým.
 
 <p align="center">
-<img src="data/illustrations/kalich.png" width=100>
+<img src="illustrations/kalich.png" width=100>
 </p>
 
 
@@ -2853,7 +2853,7 @@ Ačkoli listí dále opadává,<br />já v lásku Boží věřit smím,<br />zp�
 (3) Večer, kdy volá Pán k domovu své,<br />večer, večer, kdy staré dny odejdou dál jak sen,<br />večer, kdy každý z nás setká se s Pánem svým,<br />buď s námi Pán.
 
 <p align="center">
-<img src="data/illustrations/kometa.png" width=270>
+<img src="illustrations/kometa.png" width=270>
 </p>
 
 
@@ -2894,7 +2894,7 @@ Mluv, Pane můj, tvůj služebník slyší,
 mluv, Pane můj, ke mně slovo své.
 
 <p align="center">
-<img src="data/illustrations/svicka.png" width=100>
+<img src="illustrations/svicka.png" width=100>
 </p>
 
 
@@ -2961,7 +2961,7 @@ Moudrost mi dávej, sám ji nemám,<br />moudrost mi dávej, ať Tě hledám.
 Moudrost mi, Pane, dávej,<br />ať ve tmě nebloudím.
 
 <p align="center">
-<img src="data/illustrations/svicka-kriz.png" width=100>
+<img src="illustrations/svicka-kriz.png" width=100>
 </p>
 
 
@@ -3184,7 +3184,7 @@ podá nám svoji dlaň.
 (3) Když se k nám blíží tma, která svět objímá<br />a když den poslední zhasíná,<br />přede mnou řeky proud, na koho spolehnout,<br />ty mě sám veď domů, Pane můj.
 
 <p align="center">
-<img src="data/illustrations/kriz-kometa.png" width=270>
+<img src="illustrations/kriz-kometa.png" width=270>
 </p>
 
 
@@ -3255,7 +3255,7 @@ Nejvyšší, Všemohoucí, dobrý Pane,<br />ať Tobě chvála, sláva, pocta se
 (4) Prý strašně dlouho mezi námi chodí,<br />jenom se bojím, že ho nepotkám.<br />Budu ho hledat, snad se mu to hodí<br />a bude mít čas jít na chvilku k nám.<br />Když takhle dlouho mezi lidmi chodí,<br />taky se cítí asi hrozně sám.<br />Musím ho najít, snad se mu to hodí<br />a bude mít čas jít na chvilku k nám.
 
 <p align="center">
-<img src="data/illustrations/kanon.png" width=270>
+<img src="illustrations/kanon.png" width=270>
 </p>
 
 
@@ -3284,7 +3284,7 @@ Nejvyšší, Všemohoucí, dobrý Pane,<br />ať Tobě chvála, sláva, pocta se
 (4) Není lepší na tom světě než svědomí čisté.<br />To nám dávej, uchovávej, milý Pane Kriste!
 
 <p align="center">
-<img src="data/illustrations/zpevak.png" width=270>
+<img src="illustrations/zpevak.png" width=270>
 </p>
 
 
@@ -3327,7 +3327,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (4) Proto přetvoř, srdce mé, ať to není kámen,<br />(: dej mi radost a chuť žít, za to prosím. Amen. :)
 
 <p align="center">
-<img src="data/illustrations/zvonecek.png" width=100>
+<img src="illustrations/zvonecek.png" width=100>
 </p>
 
 
@@ -3368,7 +3368,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (3) Ježíši, tys hvězda ta, která ve tmě plane.<br />Tvoje milost? Bohatá! Dary? Nečekané!
 
 <p align="center">
-<img src="data/illustrations/kometa.png" width=270>
+<img src="illustrations/kometa.png" width=270>
 </p>
 
 
@@ -3415,7 +3415,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (3) A když teď my půjdem spát,<br />dej ráno zas nám vstát v své lásce nejvyšší.<br />Buď stále s námi sám,<br />nás buduj ve svůj chrám, ó Pane Ježíši. :)
 
 <p align="center">
-<img src="data/illustrations/svicka.png" width=100>
+<img src="illustrations/svicka.png" width=100>
 </p>
 
 
@@ -3450,7 +3450,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (8) Prosím tebe, Pane světa,<br />odpusť moji slepotu.<br />Nechť je se vším starým veta,<br />nové daruj k životu.
 
 <p align="center">
-<img src="data/illustrations/pouta.png" width=270>
+<img src="illustrations/pouta.png" width=270>
 </p>
 
 
@@ -3491,7 +3491,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (3) A setře nám Pán tam u těch bran slzy z očí (2x)<br />a světlo dá nám lepší než den, který končí.<br />Bran má město dvanáct, halelu.
 
 <p align="center">
-<img src="data/illustrations/knez.png">
+<img src="illustrations/knez.png">
 <i>...podél cesty necháváme zbitý ve křoví,
 čistota nám brání vidět nuzný hladový...</i>
 </p>
@@ -3510,7 +3510,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (3) Můj Pán, co řek‘ to udělal, já vím …<br />i mrtvému děl, aby vstal, já vím ….
 
 <p align="center">
-<img src="data/illustrations/kytarista.png">
+<img src="illustrations/kytarista.png">
 </p>
 
 
@@ -3547,7 +3547,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (4) Posílá nás, posílá nás, posílá do všech koutů Pán.<br />Až já půjdu do nebe, nepůjdu tam bez tebe,<br />před trůnem zazní...
 
 <p align="center">
-<img src="data/illustrations/polnice.png" width=270>
+<img src="illustrations/polnice.png" width=270>
 </p>
 
 
@@ -3588,7 +3588,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (4) Odpusť mi, Pane, zase znova,<br />odpusť mi každý lásky dluh,<br />(: odpusť všechna zbytečná slova,<br />odpusť, jenž slitovný jsi Bůh. :)
 
 <p align="center">
-<img src="data/illustrations/trumpetista.png">
+<img src="illustrations/trumpetista.png">
 <i>...Petr se stal skálou a Pavel polnicí...</i>
 </p>
 
@@ -3608,7 +3608,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (3) Vesele si zrána běžím pro poštu.<br />Ten dopis byl rána, škrt do rozpočtu.<br />Kudy kam a kudy dál…<br />Snad mě doktor zklidní... Právě naopak,<br />nález pozitivní — a co bude pak?<br />Kudy kam a kudy dál…
 
 <p align="center">
-<img src="data/illustrations/kytara-kriz.png" width=270>
+<img src="illustrations/kytara-kriz.png" width=270>
 </p>
 
 
@@ -3635,7 +3635,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (3) Hříšníku, který k němu jde, Ježíš jediný,<br />dnes Boží milost poskytne, Ježíš jediný.
 
 <p align="center">
-<img src="data/illustrations/stan.png" width=270>
+<img src="illustrations/stan.png" width=270>
 </p>
 
 
@@ -3720,7 +3720,7 @@ S tebou je, Otče náš,<br />proto je navždy s námi.<br />Jen ten, kdo tebe m
 (2) Kdo život jemu zasvětí,<br />kdo nelituje obětí,<br />kdo zlobu láskou oplatí,<br />takové schová Pán v laskavém objetí.
 
 <p align="center">
-<img src="data/illustrations/na-skale.png" width=270>
+<img src="illustrations/na-skale.png" width=270>
 <i>...já nechci stavět na písku,
 byť kolem skal byl plot...</i>
 </p>
@@ -3773,7 +3773,7 @@ Prosíme, Otče, vyslyš nás,
 ve jménu Krista, amen.
 
 <p align="center">
-<img src="data/illustrations/parez.png" width=270>
+<img src="illustrations/parez.png" width=270>
 </p>
 
 
@@ -3794,7 +3794,7 @@ ve jménu Krista, amen.
 (6) Pane, naplň pravým mírem srdce svého stvoření,<br />ať náš hřích už v světě širém tvoji vůli nemění.
 
 <p align="center">
-<img src="data/illustrations/bible.png" width=100>
+<img src="illustrations/bible.png" width=100>
 </p>
 
 
@@ -3819,7 +3819,7 @@ za to, že máš v péči celý svět i nás,
 za to, že máš v péči celý svět i nás.
 
 <p align="center">
-<img src="data/illustrations/kytara-kalich.png" width=270>
+<img src="illustrations/kytara-kalich.png" width=270>
 </p>
 
 
@@ -3848,7 +3848,7 @@ za to, že máš v péči celý svět i nás.
 (3) Chci tě oslavit, i když nemám mnoho sil,<br />život svůj ti dát, bys z něho viny smyl.
 
 <p align="center">
-<img src="data/illustrations/zrada.png">
+<img src="illustrations/zrada.png">
 <i>...Petra v srdci zrada pálí...</i>
 </p>
 
@@ -3864,7 +3864,7 @@ za to, že máš v péči celý svět i nás.
 (3) Pánové nahoře, říká se, že jste velcí,<br />a na věci to přeci vůbec nic nemění.<br />Pánové nahoře, na to jste příliš malí,<br />abyste vydávali rozkazy k vraždění.<br />Musí- li války být, jděte si válčit sami<br />a vaši věrní s vámi, ostatní, ty nechte být.<br />A když mě najdete, tak vám mohu vyřídit:<br />střílejte, neváhejte, já zbraň nebudu mít.
 
 <p align="center">
-<img src="data/illustrations/kanon.png" width=270>
+<img src="illustrations/kanon.png" width=270>
 </p>
 
 
@@ -3995,7 +3995,7 @@ za to, že máš v péči celý svět i nás.
 (4) Pane, slyš mé přání, vzdal vše, co mi brání,<br />vzdal vše, co mi brání být tvým člověkem.
 
 <p align="center">
-<img src="data/illustrations/kriz-kometa.png" width=270>
+<img src="illustrations/kriz-kometa.png" width=270>
 </p>
 
 
@@ -4016,7 +4016,7 @@ za to, že máš v péči celý svět i nás.
 (6) Pomoz Pane ať nám tyhle slova<br />připomínaj cos nám ukázal<br />že je třeba pořád zas a znova<br />aby nikdo na nikoho nekašlal
 
 <p align="center">
-<img src="data/illustrations/farar-jelito.png">
+<img src="illustrations/farar-jelito.png">
 <i>...byl tu s námi taky farář,
 zamračený jelito...</i>
 </p>
@@ -4037,7 +4037,7 @@ zamračený jelito...</i>
 (5) Co ta věta značí těžko se mi povídá<br />jedna věc mi stačí kterou se z ní dovídám<br />že už nemusím se bát<br />až na Olšana půjdu spát<br />v konci tvýho věka<br />tam na tebe čeká<br />ten co z mrtvejch vstal
 
 <p align="center">
-<img src="data/illustrations/saxofonista.png" width=270>
+<img src="illustrations/saxofonista.png" width=270>
 </p>
 
 
@@ -4098,7 +4098,7 @@ zamračený jelito...</i>
 (4) Daniel byl ze lví jámy zachráněn,<br />také Jonáš z útrob velrybích<br />a pak třetí den Ježíš z mrtvých vstal,<br />a proč ne i kdokoli z nás?
 
 <p align="center">
-<img src="data/illustrations/dum.png" width=270>
+<img src="illustrations/dum.png" width=270>
 </p>
 
 
@@ -4141,7 +4141,7 @@ zamračený jelito...</i>
 (3) Mám takový divný pocit, když se tážu proč –<br />vždyť by z toho mohl povstat pěkný kolotoč.<br />S ďáblem já se v kole točím, pak nemohu spát,<br />z hlavy mně už vůbec nejde: proč mě Pán má rád.
 
 <p align="center">
-<img src="data/illustrations/vojaci.png">
+<img src="illustrations/vojaci.png">
 <i>...válka za válku, mír za mír...</i>
 </p>
 
@@ -4157,7 +4157,7 @@ Proč se bouří národové, radí se o věcech zlých,<br />prahnou jako řvouc
 (2) Novou zemi, nové nebe zaslíbil Bůh pokojným.<br />Držte dobré, stůjte v pravdě, služte slabým, nesvorným. Nedoufejte v moudrost lidí, v sílu paží, mečů svých,<br />jen kdo v bázni Boží chodí, světlo spatří, pravý mír.
 
 <p align="center">
-<img src="data/illustrations/zed.png" width=270>
+<img src="illustrations/zed.png" width=270>
 </p>
 
 
@@ -4208,7 +4208,7 @@ Vykroč dál, nejsi zrnko v prachu u cesty,<br />po kterém lidi šlapou.<br />V
 (3) = 1.
 
 <p align="center">
-<img src="data/illustrations/kalich.png" width=100>
+<img src="illustrations/kalich.png" width=100>
 </p>
 
 
@@ -4261,7 +4261,7 @@ Ref.
 Přicházíš ke mně, Pane, hříšník jsem, to víš,<br />přicházíš denně, pokaždé mi odpustíš.<br />Přicházíš k jiným a co s nimi uděláš?<br />Rád je vždy vyslechneš a pomoc jim dáš.
 
 <p align="center">
-<img src="data/illustrations/klavir.png" width=100>
+<img src="illustrations/klavir.png" width=100>
 </p>
 
 
@@ -4448,7 +4448,7 @@ Zbav mě mých strastí a utiš můj pláč<br />dej mi to po čem toužím:<br 
 (3) K poslednímu troubení chceme být připraveni.<br />Až opona spadne, co je slavné, zvadne,<br />my žít budem, my žít budem, my žít budem, křesťané.
 
 <p align="center">
-<img src="data/illustrations/ptacek.png" width=270>
+<img src="illustrations/ptacek.png" width=270>
 </p>
 
 
@@ -4467,7 +4467,7 @@ Přichází zavřenejma dveřma<br />a povídá všem vevnitř „Pokoj vám“<
 (3) Říkám si má to vůbec cenu<br />všechno to proč jsem vlastně dodnes žil<br />Říkám si má to vůbec cenu<br />vtom přišlo co bych ve snu netušil<br />všechno se v radost mění<br />i blues Tomáše který nevěřil
 
 <p align="center">
-<img src="data/illustrations/parez.png" width=270>
+<img src="illustrations/parez.png" width=270>
 </p>
 
 
@@ -4496,7 +4496,7 @@ Přichází zavřenejma dveřma<br />a povídá všem vevnitř „Pokoj vám“<
 (2) (: Vím, že jednou :)<br />přijdu k tobě v radost tvou,<br />(: vím, že jednou :)<br />přijdu k tobě, Pane můj.
 
 <p align="center">
-<img src="data/illustrations/kytara-kriz.png" width=270>
+<img src="illustrations/kytara-kriz.png" width=270>
 </p>
 
 
@@ -4551,7 +4551,7 @@ Přichází zavřenejma dveřma<br />a povídá všem vevnitř „Pokoj vám“<
 (4) Když tvá věrnost zůstává, smím být svoboden<br />od bázně: noc laskavá přejde v dobrý den!
 
 <p align="center">
-<img src="data/illustrations/svicka.png" width=100>
+<img src="illustrations/svicka.png" width=100>
 </p>
 
 
@@ -4636,7 +4636,7 @@ Spoj nás v jedno, Pane,<br />spoj nás v jedno poutem,<br />jež nemůže být 
 (3) Spolu odpouštějme na kolenou.
 
 <p align="center">
-<img src="data/illustrations/kytara-kalich.png" width=270>
+<img src="illustrations/kytara-kalich.png" width=270>
 </p>
 
 
@@ -4659,7 +4659,7 @@ Až se našel jeden, kdo ten kámen vzal,<br />do řeky ho zahodil, na prsty zah
 (4) Spravedlivě soudí, kdo svou pravdu má,<br />pomsta bývá sladká, prázdnotě cíl dá.<br />Chápat kdo to nechce, na kříži skončí.<br />To jasný je jak facka tomu, kdo zná a ví...
 
 <p align="center">
-<img src="data/illustrations/kohout.png" width=270>
+<img src="illustrations/kohout.png" width=270>
 <i>...kouhout už jen chroptí...</i>
 </p>
 
@@ -4759,7 +4759,7 @@ Hosana, hosana, Bohu na výsostech.
 Hosana, hosana, Bohu na výsostech.
 
 <p align="center">
-<img src="data/illustrations/kriz.png" width=100>
+<img src="illustrations/kriz.png" width=100>
 </p>
 
 
@@ -4896,7 +4896,7 @@ svědka lživýho, co svým životem nectí Boha.
 (2) Já po sté snad už začínám a vždycky dobrou vůli mám,<br />že nechci více hřešit, že budu svatě žít.<br />A vždycky znovu podléhám, když pokušením projít mám,<br />a před tebou se, Pane můj, zas musím pokořit.
 
 <p align="center">
-<img src="data/illustrations/vinna-reva.png" width=270>
+<img src="illustrations/vinna-reva.png" width=270>
 </p>
 
 
@@ -4991,7 +4991,7 @@ svědka lživýho, co svým životem nectí Boha.
 (4) Však ani rádci moudří, ani Pilát sám,<br />s tím si rady neví, že kámen je ten tam.
 
 <p align="center">
-<img src="data/illustrations/zed.png" width=270>
+<img src="illustrations/zed.png" width=270>
 </p>
 
 
@@ -5128,7 +5128,7 @@ volní jsou, svobodní,<br />tři mládenci veselí, vyšli zachránění,
 volní jsou, svobodní.
 
 <p align="center">
-<img src="data/illustrations/pouta.png" width=270>
+<img src="illustrations/pouta.png" width=270>
 </p>
 
 
@@ -5213,7 +5213,7 @@ volní jsou, svobodní.
 (3) Sám musíš stát před soudem Božím,<br />počestnost tvá byl jenom klam.<br />Jen řekni: „Hřích svůj k tobě složím,<br />Ježíši můj, nemohu sám.“
 
 <p align="center">
-<img src="data/illustrations/polnice.png" width=270>
+<img src="illustrations/polnice.png" width=270>
 </p>
 
 
@@ -5258,7 +5258,7 @@ volní jsou, svobodní.
 (4) Nauč mne, Bože, tvrdosti klasů,<br />v slunečním ohni uhájit krásu,<br />pro ústa dětí chlebem se státi.
 
 <p align="center">
-<img src="data/illustrations/stan.png" width=270>
+<img src="illustrations/stan.png" width=270>
 </p>
 
 
@@ -5283,7 +5283,7 @@ hoj, majim besasón. Ha, ha, ha, ha.<br />Majim, majim, majim, majim, majim, maj
 (3) Ta barva vína v očích mu zůstane<br />nad mléko bělejší zuby jeho.
 
 <p align="center">
-<img src="data/illustrations/vinna-reva.png" width=270>
+<img src="illustrations/vinna-reva.png" width=270>
 </p>
 
 
@@ -5444,7 +5444,7 @@ Ať umíráme, na tebe dáme,
 Pána a Krista. Haleluja.
 
 <p align="center">
-<img src="data/illustrations/bible.png" width=100>
+<img src="illustrations/bible.png" width=100>
 </p>
 
 
@@ -5489,7 +5489,7 @@ Pána a Krista. Haleluja.
 (5) Jak měl bych, Pane, vděčnost dokázat,<br />svým bratřím také chci svou lásku dát.
 
 <p align="center">
-<img src="data/illustrations/svicka-kriz.png" width=100>
+<img src="illustrations/svicka-kriz.png" width=100>
 </p>
 
 
@@ -5524,7 +5524,7 @@ Amen.
 (4) Někdo jsi a něco znáš, k tomu i dost vyděláš,<br />ve slovníku najít zkus význam slova "exitus".
 
 <p align="center">
-<img src="data/illustrations/zpevak.png" width=270>
+<img src="illustrations/zpevak.png" width=270>
 </p>
 
 
@@ -5681,7 +5681,7 @@ B.<br />Ďábel tichou chůzi sladký řeči má –<br />brzy pozná každej kd
 (6) (: Poznám tam, jak na tom jsem, :) kam jdu já,<br />poznám tam, jak na tom jsem, cestu z bludných kruhů ven, …
 
 <p align="center">
-<img src="data/illustrations/zed.png" width=270>
+<img src="illustrations/zed.png" width=270>
 </p>
 
 
@@ -5846,7 +5846,7 @@ to já už budu za řekou,<br />tam věčnej život dostat mám, až přejdu tu 
 (3) (: Na pár trámů přibijou<br />svýho krále, s ním i naději svou. :)<br />Čeká soud. Čeká soud. Čeká soud.
 
 <p align="center">
-<img src="data/illustrations/kriz-kometa.png" width=270>
+<img src="illustrations/kriz-kometa.png" width=270>
 </p>
 
 
@@ -5939,7 +5939,7 @@ Znám tisíc jmen, jediný z nich je svatý, ó
 (2) Už se zvedá vítr, který zrno čistí,<br />žeň hospodáře čeká, sýpky nachystal,<br />běda všechněm, kteří jsou si sebou jistí,<br />běda tomu domu, co na písku stál.
 
 <p align="center">
-<img src="data/illustrations/hvezda.png">
+<img src="illustrations/hvezda.png">
 <i>...tomu, kdo pro žal hlavu věší,
 na nebi hvězda září...</i>
 </p>
@@ -5966,7 +5966,7 @@ na nebi hvězda září...</i>
 (6) Vítězná píseň, kterou já znám,<br />dál nese radost mou,<br />zní andělů zpěv, zpívám též, vždyť<br />(: kdo ti zpívá, meč v ruce má. :) 4x
 
 <p align="center">
-<img src="data/illustrations/fletnista.png" width=270>
+<img src="illustrations/fletnista.png" width=270>
 </p>
 
 
@@ -5985,7 +5985,7 @@ na nebi hvězda září...</i>
 (5) Zrána cestou sotva známou vzhůru mě potáhnou,<br />(: cestou sotva známou vzhůru mě potáhnou, :)<br />z dáli slyším trouby znít.
 
 <p align="center">
-<img src="data/illustrations/bubenik.png" width=270>
+<img src="illustrations/bubenik.png" width=270>
 </p>
 
 
@@ -6088,7 +6088,7 @@ na nebi hvězda září...</i>
 (8) Jdi a nehřeš více halelu<br />jdi a nehřeš více halelu<br />(: dneska na hřích kašlou lidi z panelů<br />ty jdi a nehřeš více a Bohu zpívej halelu :)
 
 <p align="center">
-<img src="data/illustrations/dum.png" width=270>
+<img src="illustrations/dum.png" width=270>
 </p>
 
 
@@ -6113,7 +6113,7 @@ na nebi hvězda září...</i>
 (2) Nebo tak Bůh miloval svět,<br />že syna svého jednorozeného za nás dal,<br />aby každý, kdo uvěří v něho nezahynul,<br />ale měl s ním život věčný v nebi.
 
 <p align="center">
-<img src="data/illustrations/zvon.png">
+<img src="illustrations/zvon.png">
 </p>
 
 
@@ -6202,7 +6202,7 @@ Tvá je moc, čest i sláva,<br />která nepřestává.
 Smrt, život, andělé, mocnosti zlé<br />neodloučí nás od lásky tvé, proto:
 
 <p align="center">
-<img src="data/illustrations/bible.png" width=100>
+<img src="illustrations/bible.png" width=100>
 </p>
 
 
@@ -6259,7 +6259,7 @@ Každý kout má prozářit nedělního jitra svit,
 Ježíš slavně z hrobu vstal, nad smrtí je Pán a Král.
 
 <p align="center">
-<img src="data/illustrations/kriz.png" width=100>
+<img src="illustrations/kriz.png" width=100>
 </p>
 
 
@@ -6328,7 +6328,7 @@ Píseň novou, novou, Pánu zpívejte.
 Sanctus. Sanctus. Sanctus. Sanctus.
 
 <p align="center">
-<img src="data/illustrations/svicka.png" width=100>
+<img src="illustrations/svicka.png" width=100>
 </p>
 
 
@@ -6359,7 +6359,7 @@ Ty zůstáváš, ty zůstáváš, všem marnost pouhá, ty zůstáváš,
 ty zůstáváš, ty zůstáváš, i nás v život nový povoláš.
 
 <p align="center">
-<img src="data/illustrations/parez.png" width=270>
+<img src="illustrations/parez.png" width=270>
 </p>
 
 
@@ -6410,7 +6410,7 @@ Bless the Lord, my soul
 He rescues me from death.
 
 <p align="center">
-<img src="data/illustrations/zpevak.png" width=270>
+<img src="illustrations/zpevak.png" width=270>
 </p>
 
 
@@ -6427,7 +6427,7 @@ Credo in unum Deum, credo in unum Dominum,
 credo in unum Deum, Credo in unum Spiritum.
 
 <p align="center">
-<img src="data/illustrations/vladce.png">
+<img src="illustrations/vladce.png">
 <i>...člověče, chceš být vládcem, chceš vrýt svůj obraz dnům...</i>
 </p>
 
@@ -6445,7 +6445,7 @@ In the Lord I'll be ever thankful, in the Lord I will rejoice,<br />Look to him,
 Pan jest mocą swojego ludu Pieśnią moją jest Pan,<br />moja tarcza i moja moc<br />On jest mym Bogiem nie jestem sam<br />w Nim moja siła nie jestem sam
 
 <p align="center">
-<img src="data/illustrations/strom.png" width=270>
+<img src="illustrations/strom.png" width=270>
 </p>
 
 
@@ -6460,7 +6460,7 @@ Et in terra pax hominibus
 bone voluntatis.
 
 <p align="center">
-<img src="data/illustrations/fletnista.png" width=270>
+<img src="illustrations/fletnista.png" width=270>
 </p>
 
 
@@ -6475,7 +6475,7 @@ Sláva buď, sláva buď na výsostech Bohu.
 Sláva buď, sláva buď, haleluja, haleluja.
 
 <p align="center">
-<img src="data/illustrations/kytarista.png">
+<img src="illustrations/kytarista.png">
 </p>
 
 
@@ -6496,7 +6496,7 @@ Alleluia, alleluia, in leatitia,
 alleluia, alleluia, in leatitia.
 
 <p align="center">
-<img src="data/illustrations/archa.png" width=270>
+<img src="illustrations/archa.png" width=270>
 </p>
 
 
@@ -6521,7 +6521,7 @@ Kyrie, Kyrie, Kyrie eleison,
 Kyrie eleison, eleison.
 
 <p align="center">
-<img src="data/illustrations/ptacek.png" width=270>
+<img src="illustrations/ptacek.png" width=270>
 </p>
 
 
@@ -6564,7 +6564,7 @@ magnificat,
 anima mea Dominum, anima mea Dominum
 
 <p align="center">
-<img src="data/illustrations/houslista.png">
+<img src="illustrations/houslista.png">
 </p>
 
 
@@ -6583,7 +6583,7 @@ Nada te turbe, nada te espante:
 Solo Dios basta.
 
 <p align="center">
-<img src="data/illustrations/zvonecek.png" width=100>
+<img src="illustrations/zvonecek.png" width=100>
 </p>
 
 
@@ -6594,7 +6594,7 @@ Nebojte se, radujte se,
 Kristus slavný vítěz z hrobu vstal.
 
 <p align="center">
-<img src="data/illustrations/kriz-kometa.png" width=270>
+<img src="illustrations/kriz-kometa.png" width=270>
 </p>
 
 
@@ -6639,7 +6639,7 @@ Svatý, svatý, svatý Hospodin,
 Pán Bůh zástupů, Pán Bůh zástupů.
 
 <p align="center">
-<img src="data/illustrations/vinna-reva.png" width=270>
+<img src="illustrations/vinna-reva.png" width=270>
 </p>
 
 
@@ -6650,7 +6650,7 @@ Surrexit Dominus vere, alleluia, alleluia,
 Surrexit Christus hodie, alleluia, alleluia.
 
 <p align="center">
-<img src="data/illustrations/reznici.png">
+<img src="illustrations/reznici.png">
 <i>Kristus je má síla
 KANCIONÁL ŘEZNÍKŮ NOVOMĚSTSKÝCH</i>
 </p>
@@ -6663,7 +6663,7 @@ Ubi caritas et amor, ubi caritas, Deus ibi est.
 Kde je dobrota a láska, kde je dobrota, tam je také Bůh.
 
 <p align="center">
-<img src="data/illustrations/stan.png" width=270>
+<img src="illustrations/stan.png" width=270>
 </p>
 
 
@@ -6674,7 +6674,7 @@ Uže ně ja živu, no řivjot vo mně Christos,
 živjot vo mně Christos, živjot vo mně Christos.
 
 <p align="center">
-<img src="data/illustrations/zpevak.png" width=270>
+<img src="illustrations/zpevak.png" width=270>
 </p>
 
 
@@ -6697,7 +6697,7 @@ Tvůrce Duchu svatý přijď.
 Haleluja, haleluja, haleluja, haleluja, haleluja,<br />haleluja, haleluja, haleluja, haleluja.
 
 <p align="center">
-<img src="data/illustrations/archa.png" width=270>
+<img src="illustrations/archa.png" width=270>
 </p>
 
 
@@ -6720,7 +6720,7 @@ Sláva na výsostech Bohu,<br />sláva na výsostech Bohu,<br />a na zemi pokoj 
 Věřím, věřím v Boha Otce všemohoucího,<br />Stvořitele nebe i země,<br />i v Ježíše Krista, Syna jeho jediného, Pána našeho,<br />jenž se počal z Ducha svatého,<br />narodil se z Marie Panny,<br />trpěl pod Pontským Pilátem,<br />byl ukřižován a umřel a byl pohřben,<br />sestoupil do pekel, třetího dne vstal z mrtvých,<br />vstoupil na nebesa, sedí na pravici Boha, Otce všemohoucího,<br />odkud přijde soudit živé i mrtvé.<br />Věřím v Ducha svatého, svatou církev obecnou,<br />svatých obcování, hříchů odpuštění,<br />těla z mrtvých vzkříšení a život věčný.<br />Amen.
 
 <p align="center">
-<img src="data/illustrations/tvrde-srdce.png">
+<img src="illustrations/tvrde-srdce.png">
 <i>...srdce lidské tvrdé bývá, není v světě místa...</i>
 </p>
 
@@ -6756,7 +6756,7 @@ Duše má velebí Pána, duše má velebí Pána<br />a duch můj jásá v Bohu 
 Amen, amen, amen, amen, amen.
 
 <p align="center">
-<img src="data/illustrations/fletnista.png" width=270>
+<img src="illustrations/fletnista.png" width=270>
 </p>
 
 
@@ -6795,7 +6795,7 @@ Amen, amen, amen, amen, amen.
 (3) Mám v sobě bolest, Pane,<br />že tolik věcí zranilo,<br />mám také touhu, Pane,<br />aby tě srdce poznalo.
 
 <p align="center">
-<img src="data/illustrations/zrada.png">
+<img src="illustrations/zrada.png">
 <i>...Petra v srdci zrada pálí...</i>
 </p>
 
@@ -6809,7 +6809,7 @@ V čas úzkosti, v čas podmračený,<br />ať, Pane, jedno jsme,<br />čas nad�
 V čas jásavý, v čas rozjasněný<br />ať, Pane, jedno jsme,<br />čas naděje je neproměnný, před tebou stojíme.<br />Ať na tebe zas těším se<br />a s radostí svou svěřím se, shledání s tebou oslavím.<br />V čas jásavý, v čas rozjasněný<br />ať, Pane, jedno jsme,<br />čas naděje je neproměnný, před tebou stojíme.
 
 <p align="center">
-<img src="data/illustrations/vinna-reva.png" width=270>
+<img src="illustrations/vinna-reva.png" width=270>
 </p>
 
 
@@ -6846,7 +6846,7 @@ Vím o sestrách, vím o bratřích,<br />co zatím nenašli Tvůj dům,<br />br
 (2) Nyní, nyní z mraků kolem nás,<br />vyšlehne rosa a zář.<br />Nyní, nyní se ozve živý hlas.<br />Hlas, který nezaniká na poušti,<br />hlas, který laská a odpouští.
 
 <p align="center">
-<img src="data/illustrations/kytarista.png">
+<img src="illustrations/kytarista.png">
 </p>
 
 
@@ -6867,7 +6867,7 @@ Sám víš, jak těžce rodí země lidí,<br />sám znáš tu trpkou žeň, co 
 Jen v ní, v té rose, která nevysychá,<br />jen v ní mé srdce jako ditě dýchá<br />a tvá láska mě proměňuje každý den,<br />a tvá láska mě proměňuje každý den.
 
 <p align="center">
-<img src="data/illustrations/kriz.png" width=100>
+<img src="illustrations/kriz.png" width=100>
 </p>
 
 
@@ -6884,7 +6884,7 @@ Jen v ní, v té rose, která nevysychá,<br />jen v ní mé srdce jako ditě d�
 (3) Ústa otvírám jen pro poselství lásky,<br />lásko živá, skutky mluvící k nám.<br />Z oblaků, květů i lidí tvůj dech přijímám,<br />kéž i v bratru vidím tvůj chrám.
 
 <p align="center">
-<img src="data/illustrations/hudebnici.png">
+<img src="illustrations/hudebnici.png">
 <i>...saka ani srdce nemaj upjatý...</i>
 </p>
 

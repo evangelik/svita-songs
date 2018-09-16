@@ -59,7 +59,7 @@ function getIllustrationMarkdown(song) {
 
   return (
     '\n\n<p align="center">\n' +
-    '<img src="data/illustrations/' +
+    '<img src="illustrations/' +
     song.illustration.name +
     '.png"' +
     width +
