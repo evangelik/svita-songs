@@ -1,8 +1,10 @@
 const express = require("express");
 const bodyParser = require('body-parser');
 const fs = require("fs");
+const exportToMarkdown = require("./exportToMarkdown");
 
 const SVITA_JSON_FILE = __dirname + "/../../svita.json";
+const SVITA_MARKDOWN_FILE = __dirname + "/../../svita.md";
 const ILLUSTRATIONS_DIR = __dirname + "/../../data/illustrations";
 
 const app = express();
@@ -30,7 +32,16 @@ app.post("/api/put", function (req, res) {
         if (err) {
           next(err);
         } else {
-          res.json(req.body); // Send the songs back.
+          fs.writeFile(
+              SVITA_MARKDOWN_FILE,
+              exportToMarkdown(req.body),
+              (err) => {
+                if (err) {
+                  next(err);
+                } else {
+                  res.json(req.body); // Send the songs back.
+                }
+              });
         }
       });
 });
