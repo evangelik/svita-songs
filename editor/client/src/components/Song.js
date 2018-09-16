@@ -2,6 +2,7 @@ import React from "react";
 import makePureRender from "../util/makePureRender";
 import Authors from "./Authors";
 import Sections from "./Sections";
+import BibleRefs from "./BibleRefs";
 import Illustrations from "./Illustrations";
 import FormGroup from "./FormGroup";
 import RenderIllustration from "./RenderIllustration";
@@ -37,8 +38,8 @@ const Song = ({song, onChange}) => {
             <Authors song={song} onChange={onChange} />
           </FormGroup>
 
-          <FormGroup title="Biblické reference">
-            Work in progress.
+          <FormGroup title="Biblické odkazy">
+            <BibleRefs song={song} onChange={onChange} />
           </FormGroup>
 
           <FormGroup title="Ilustrace">

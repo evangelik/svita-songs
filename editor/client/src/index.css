@@ -112,6 +112,18 @@ textarea.form-control {
   border-color: #f0f0f0;
 }
 
+.bible-ref-row {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.bible-ref-row .col-5,
+.bible-ref-row .col-3,
+.bible-ref-row .col-2 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
 /** Illustration. */
 
 .illustration {
