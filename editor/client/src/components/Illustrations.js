@@ -13,9 +13,9 @@ const Illustrations = ({song, onChange}) => {
   const onIllustrationAdd =
       () => onChange(
           song.update(song => song.set("illustration", fromJS({
-            name: ILLUSTRATIONS[0].name,
-            size: ILLUSTRATIONS[0].size,
-            label: ILLUSTRATIONS[0].label,
+            name: "archa",
+            size: ILLUSTRATIONS["archa"].size,
+            label: ILLUSTRATIONS["archa"].label,
           }))));
 
   const onIllustrationRemove =

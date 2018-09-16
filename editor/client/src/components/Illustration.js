@@ -22,8 +22,10 @@ const Illustration = ({illustration, onChange}) => {
       <select className="form-control"
               onChange={onNameChange}
               value={illustration.get("name")}>
-        {ILLUSTRATIONS.map(({name, description}) =>
-            <option key={name} value={name}>{description}</option>)}
+        {Object.getOwnPropertyNames(ILLUSTRATIONS).map(name =>
+            <option key={name} value={name}>
+              {ILLUSTRATIONS[name].description}
+            </option>)}
       </select>
     </div>
     <div className="form-group">
@@ -31,8 +33,8 @@ const Illustration = ({illustration, onChange}) => {
       <select className="form-control"
               onChange={onSizeChange}
               value={illustration.get("size")}>
-        {ILLUSTRATION_SIZES.map(({size, label}) =>
-            <option key={size} value={size}>{label}</option>)}
+        {Object.getOwnPropertyNames(ILLUSTRATION_SIZES).map(size =>
+            <option key={size} value={size}>{ILLUSTRATION_SIZES[size]}</option>)}
       </select>
     </div>
     <div className="form-group">
@@ -46,8 +48,8 @@ const Illustration = ({illustration, onChange}) => {
   </div>;
 };
 
-function getIllustrationDefaults(selectedName) {
-  let { name, size, label } = ILLUSTRATIONS.find(i => i.name === selectedName);
+function getIllustrationDefaults(name) {
+  let { size, label } = ILLUSTRATIONS[name];
 
   if (label === undefined) {
     label = "";

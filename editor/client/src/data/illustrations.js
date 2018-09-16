@@ -4,296 +4,235 @@ const IllustrationSize = {
   LARGE: "large"
 };
 
-export const ILLUSTRATION_SIZES = [
-  {
-    size: IllustrationSize.SMALL,
-    label: "malá",
-  },
-  {
-    size: IllustrationSize.MEDIUM,
-    label: "střední",
-  },
-  {
-    size: IllustrationSize.LARGE,
-    label: "na celou stránku",
-  },
-];
+export const ILLUSTRATION_SIZES = {
+  [IllustrationSize.SMALL]: "malá",
+  [IllustrationSize.MEDIUM]: "střední",
+  [IllustrationSize.LARGE]: "na celou stránku",
+};
 
-export const ILLUSTRATIONS = [
-  {
-    "name": "archa",
+export const ILLUSTRATIONS = {
+  "archa": {
     "description": "Archa",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "bible",
+  "bible": {
     "description": "Bible",
     "size": IllustrationSize.SMALL,
   },
-  {
-    "name": "braska",
+  "braska": {
     "description": "Bráška",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "bubenik",
+  "bubenik": {
     "description": "Bubeník",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "divne-hlasy",
+  "divne-hlasy": {
     "description": "Divné hlasy",
     "size": IllustrationSize.LARGE,
     "label": "...divné hlasy otázku mi šeptají:\nK čemu věrnost, nač pohrdat zradou? ..."
   },
-  {
-    "name": "do-kostela",
+  "do-kostela": {
     "description": "Do kostela",
     "size": IllustrationSize.LARGE,
   },
-  {
-    "name": "dum",
+  "dum": {
     "description": "Dům",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "farar-jelito",
+  "farar-jelito": {
     "description": "Farář Jelito",
     "size": IllustrationSize.LARGE,
     "label": "...byl tu s námi taky farář,\nzamračený jelito..."
   },
-  {
-    "name": "fletnista",
+  "fletnista": {
     "description": "Flétnista",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "heligonista",
+  "heligonista": {
     "description": "Heligonista",
     "size": IllustrationSize.LARGE,
   },
-  {
-    "name": "houslista",
+  "houslista": {
     "description": "Houslista",
     "size": IllustrationSize.LARGE,
   },
-  {
-    "name": "hudebnici",
+  "hudebnici": {
     "description": "Hudebníci",
     "size": IllustrationSize.LARGE,
     "label": "...saka ani srdce nemaj upjatý..."
   },
-  {
-    "name": "hvezda",
+  "hvezda": {
     "description": "Hvězda",
     "size": IllustrationSize.LARGE,
     "label": "...tomu, kdo pro žal hlavu věší,\nna nebi hvězda září..."
   },
-  {
-    "name": "jericho",
+  "jericho": {
     "description": "Jericho",
     "size": IllustrationSize.LARGE,
     "label": "...jen si mluvte, jak silní jste v kramflecích"
   },
-  {
-    "name": "kalich",
+  "kalich": {
     "description": "Kalich",
     "size": IllustrationSize.SMALL,
   },
-  {
-    "name": "kanon",
+  "kanon": {
     "description": "Kanón",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "klavir",
+  "klavir": {
     "description": "Klavír",
     "size": IllustrationSize.SMALL,
   },
-  {
-    "name": "knez",
+  "knez": {
     "description": "Kněz",
     "size": IllustrationSize.LARGE,
     "label": "...podél cesty necháváme zbitý ve křoví,\nčistota nám brání vidět nuzný hladový..."
   },
-  {
-    "name": "kohout",
+  "kohout": {
     "description": "Kohout",
     "size": IllustrationSize.MEDIUM,
     "label": "...kouhout už jen chroptí..."
   },
-  {
-    "name": "kometa",
+  "kometa": {
     "description": "Kometa",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "kostel",
+  "kostel": {
     "description": "Kostel",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "kostelovy-lid",
+  "kostelovy-lid": {
     "description": "Kostelový lid",
     "size": IllustrationSize.LARGE,
     "label": "...mám jednu velkou starost o kostelovej lid..."
   },
-  {
-    "name": "kriz",
+  "kriz": {
     "description": "Kříž",
     "size": IllustrationSize.SMALL,
   },
-  {
-    "name": "kriz-kometa",
+  "kriz-kometa": {
     "description": "Kříž a kometa",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "kytara-kalich",
+  "kytara-kalich": {
     "description": "Kytara a kalich",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "kytara-kriz",
+  "kytara-kriz": {
     "description": "Kytara a kříž",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "kytarista",
+  "kytarista": {
     "description": "Kytarista",
     "size": IllustrationSize.LARGE,
   },
-  {
-    "name": "listecek",
+  "listecek": {
     "description": "Lísteček",
     "size": IllustrationSize.LARGE,
     "label": "...v kořenech starých pupen prask'..."
   },
-  {
-    "name": "na-skale",
+  "na-skale": {
     "description": "Na skále",
     "size": IllustrationSize.MEDIUM,
     "label": "...já nechci stavět na písku,\nbyť kolem skal byl plot..."
   },
-  {
-    "name": "ovecka",
+  "ovecka": {
     "description": "Ovečka",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "parez",
+  "parez": {
     "description": "Pařez",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "polnice",
+  "polnice": {
     "description": "Polnice",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "pouta",
+  "pouta": {
     "description": "Pouta",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "ptacek",
+  "ptacek": {
     "description": "Ptáček",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "reznici",
+  "reznici": {
     "description": "Řezníci",
     "size": IllustrationSize.LARGE,
     "label": "Kristus je má síla\nKANCIONÁL ŘEZNÍKŮ NOVOMĚSTSKÝCH"
   },
-  {
-    "name": "saxofonista",
+  "saxofonista": {
     "description": "Saxofonista",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "stan",
+  "stan": {
     "description": "Stan",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "strom",
+  "strom": {
     "description": "Strom",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "svicka",
+  "svicka": {
     "description": "Svíčka",
     "size": IllustrationSize.SMALL,
   },
-  {
-    "name": "svicka-kriz",
+  "svicka-kriz": {
     "description": "Svíčka a kříž",
     "size": IllustrationSize.SMALL,
   },
-  {
-    "name": "trubka",
+  "trubka": {
     "description": "Trubka",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "trumpetista",
+  "trumpetista": {
     "description": "Trumpetista",
     "size": IllustrationSize.LARGE,
     "label": "...Petr se stal skálou a Pavel polnicí..."
   },
-  {
-    "name": "tvrde-srdce",
+  "tvrde-srdce": {
     "description": "Tvrdé srdce",
     "size": IllustrationSize.LARGE,
     "label": "...srdce lidské tvrdé bývá, není v světě místa..."
   },
-  {
-    "name": "v-soudu-den",
+  "v-soudu-den": {
     "description": "V soudu den",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "vinna-reva",
+  "vinna-reva": {
     "description": "Vinná réva",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "vladce",
+  "vladce": {
     "description": "Vládce",
     "size": IllustrationSize.LARGE,
     "label": "...člověče, chceš být vládcem, chceš vrýt svůj obraz dnům..."
   },
-  {
-    "name": "vojaci",
+  "vojaci": {
     "description": "Vojáci",
     "size": IllustrationSize.LARGE,
     "label": "...válka za válku, mír za mír..."
   },
-  {
-    "name": "zed",
+  "zed": {
     "description": "Zeď",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "zpevak",
+  "zpevak": {
     "description": "Zpěvák",
     "size": IllustrationSize.MEDIUM,
   },
-  {
-    "name": "zrada",
+  "zrada": {
     "description": "Zrada",
     "size": IllustrationSize.LARGE,
     "label": "...Petra v srdci zrada pálí..."
   },
-  {
-    "name": "zvon",
+  "zvon": {
     "description": "Zvon",
     "size": IllustrationSize.LARGE,
   },
-  {
-    "name": "zvonecek",
+  "zvonecek": {
     "description": "Zvoneček",
     "size": IllustrationSize.SMALL,
   }
-];
+};
