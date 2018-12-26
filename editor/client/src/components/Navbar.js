@@ -2,7 +2,7 @@ import React from "react";
 import makePureRender from "../util/makePureRender";
 
 const Navbar =
-    ({songs, currentSongId, onSongIdChange, isSaving, isSaved, onSaveSongs}) =>
+    ({songs, currentSongId, onSongIdChange, canEditUndo, onEditUndo, isSaving, isSaved, onSaveSongs}) =>
         <nav className="navbar fixed-top navbar-dark bg-dark">
           <div className="container">
             <a className="navbar-brand" href=".">
@@ -20,6 +20,12 @@ const Navbar =
                       {song.get("id")} {song.get("name")}
                     </option>)}
               </select>
+
+              <button className="btn btn-outline-light mr-sm-2"
+                      disabled={!canEditUndo}
+                      onClick={onEditUndo}>
+                Zpět
+              </button>
 
               <button className="btn btn-outline-light"
                       disabled={isSaving || isSaved}

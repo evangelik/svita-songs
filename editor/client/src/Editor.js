@@ -13,7 +13,8 @@ class Editor extends Component {
       savedSongs: null,
       songs: null,
       songId: Editor.getSongIdFromLocationHash(),
-      isSaving: false
+      isSaving: false,
+      history: Immutable.fromJS([])
     };
 
     window.onhashchange = this.onLocationHashChange.bind(this);
@@ -29,11 +30,20 @@ class Editor extends Component {
   }
 
   onSongChange(song) {
-    const songs = this.state.songs;
+    const { songs, history } = this.state;
     this.setState({
       songs: songs.set(
           songs.findKey(song => song.get("id") === this.state.songId),
-          song)
+          song),
+      history: history.push(songs)
+    });
+  }
+
+  onEditUndo() {
+    const history = this.state.history;
+    this.setState({
+      songs: history.last(),
+      history: history.pop()
     });
   }
 
@@ -63,7 +73,7 @@ class Editor extends Component {
   }
 
   render() {
-    const { savedSongs, songs, songId, isSaving } = this.state;
+    const { savedSongs, songs, songId, isSaving, history } = this.state;
     const isSaved = !savedSongs || savedSongs.equals(songs);
 
     if (!songs) {
@@ -84,6 +94,8 @@ class Editor extends Component {
           <Navbar songs={songs}
                   currentSongId={songId}
                   onSongIdChange={Editor.onSongIdChange}
+                  canEditUndo={!history.isEmpty()}
+                  onEditUndo={this.onEditUndo.bind(this)}
                   isSaving={isSaving}
                   isSaved={isSaved}
                   onSaveSongs={this.saveSongs.bind(this)}/>
