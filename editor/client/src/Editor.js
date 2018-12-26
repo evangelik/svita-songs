@@ -18,6 +18,7 @@ class Editor extends Component {
     };
 
     window.onhashchange = this.onLocationHashChange.bind(this);
+    document.onkeydown= this.onKeyDown.bind(this);
   }
 
   componentDidMount() {
@@ -41,6 +42,11 @@ class Editor extends Component {
 
   onEditUndo() {
     const history = this.state.history;
+
+    if (history.isEmpty()) {
+      return;
+    }
+
     this.setState({
       songs: history.last(),
       history: history.pop()
@@ -63,11 +69,48 @@ class Editor extends Component {
     this.setState({songId: Editor.getSongIdFromLocationHash()});
   }
 
+  onKeyDown(event) {
+    const ctrlPressed =
+        window.navigator.platform.match("Mac") ? event.metaKey : event.ctrlKey;
+
+    if (!ctrlPressed) {
+      return;
+    }
+
+    switch (event.which) {
+      case 83: // "Ctrl + S"
+          this.saveSongs();
+          event.preventDefault();
+          break;
+
+      case 90: // "Ctrl + Z"
+        this.onEditUndo();
+        event.preventDefault();
+        break;
+
+      case 37: // "Ctrl + ←"
+        this.shiftSongId(-1)();
+        event.preventDefault();
+        break;
+
+      case 39: // "Ctrl + →"
+        this.shiftSongId(1)();
+        event.preventDefault();
+        break;
+
+      default:
+    }
+  }
+
   static getSongIdFromLocationHash() {
     return Number(window.location.hash.replace("#", "")) || 1;
   }
 
   saveSongs() {
+    if (this.isSaved() || this.state.isSaving) {
+      return;
+    }
+
     this.setState({
       isSaving: true
     });
@@ -80,9 +123,13 @@ class Editor extends Component {
     });
   }
 
+  isSaved() {
+    const { savedSongs, songs } = this.state;
+    return !savedSongs || savedSongs.equals(songs);
+  }
+
   render() {
-    const { savedSongs, songs, songId, isSaving, history } = this.state;
-    const isSaved = !savedSongs || savedSongs.equals(songs);
+    const { songs, songId, isSaving, history } = this.state;
 
     if (!songs) {
       return <div>Načítám Svítá...</div>
@@ -107,7 +154,7 @@ class Editor extends Component {
                   canEditUndo={!history.isEmpty()}
                   onEditUndo={this.onEditUndo.bind(this)}
                   isSaving={isSaving}
-                  isSaved={isSaved}
+                  isSaved={this.isSaved()}
                   onSaveSongs={this.saveSongs.bind(this)}/>
 
           <Song song={currentSong}

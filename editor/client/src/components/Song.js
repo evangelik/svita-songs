@@ -45,6 +45,27 @@ const Song = ({song, onChange}) => {
           <FormGroup title="Ilustrace">
             <Illustrations song={song} onChange={onChange} />
           </FormGroup>
+
+          <FormGroup title="Klávesové zkratky">
+            <table style={{ width: "100%" }}>
+              <tr>
+                <td><strong><i>Ctrl + S</i></strong></td>
+                <td>uložit</td>
+              </tr>
+              <tr>
+                <td><strong><i>Ctrl + Z</i></strong></td>
+                <td>vrátit poslední úpravu</td>
+              </tr>
+              <tr>
+                <td><strong><i>Ctrl + &larr;</i></strong></td>
+                <td>předchozí píseň</td>
+              </tr>
+              <tr>
+                <td><strong><i>Ctrl + &rarr;</i></strong></td>
+                <td>následující píseň</td>
+              </tr>
+            </table>
+          </FormGroup>
         </div>
       </div>
     </div>
