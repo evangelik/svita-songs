@@ -51,6 +51,14 @@ class Editor extends Component {
     window.location.hash = "#" + Number(value);
   }
 
+  shiftSongId(delta) {
+    return () => {
+      const { songs, songId } = this.state;
+      const newId = (songId - 1 + delta + songs.count()) % songs.count() + 1;
+      window.location.hash = "#" + Number(newId);
+    };
+  }
+
   onLocationHashChange() {
     this.setState({songId: Editor.getSongIdFromLocationHash()});
   }
@@ -94,6 +102,8 @@ class Editor extends Component {
           <Navbar songs={songs}
                   currentSongId={songId}
                   onSongIdChange={Editor.onSongIdChange}
+                  onPreviousSongId={this.shiftSongId(-1).bind(this)}
+                  onNextSongId={this.shiftSongId(1).bind(this)}
                   canEditUndo={!history.isEmpty()}
                   onEditUndo={this.onEditUndo.bind(this)}
                   isSaving={isSaving}

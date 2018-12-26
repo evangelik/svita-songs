@@ -2,7 +2,7 @@ import React from "react";
 import makePureRender from "../util/makePureRender";
 
 const Navbar =
-    ({songs, currentSongId, onSongIdChange, canEditUndo, onEditUndo, isSaving, isSaved, onSaveSongs}) =>
+    ({songs, currentSongId, onSongIdChange, onNextSongId, onPreviousSongId, canEditUndo, onEditUndo, isSaving, isSaved, onSaveSongs}) =>
         <nav className="navbar fixed-top navbar-dark bg-dark">
           <div className="container">
             <a className="navbar-brand" href=".">
@@ -11,6 +11,11 @@ const Navbar =
             </a>
 
             <div className="form-inline">
+              <button className="btn btn-outline-light mr-sm-2"
+                      onClick={onPreviousSongId}>
+                &#xab;
+              </button>
+
               <select className="form-control mr-sm-2"
                       onChange={onSongIdChange}
                       value={currentSongId}>
@@ -20,6 +25,11 @@ const Navbar =
                       {song.get("id")} {song.get("name")}
                     </option>)}
               </select>
+
+              <button className="btn btn-outline-light mr-sm-2"
+                      onClick={onNextSongId}>
+                &#xbb;
+              </button>
 
               <button className="btn btn-outline-light mr-sm-2"
                       disabled={!canEditUndo}
